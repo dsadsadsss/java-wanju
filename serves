@@ -1,17 +1,3 @@
 #!/usr/bin/env bash
-#cat /proc/version
-java -Xms128M -Xmx2048M -jar senver.jar
-function check_ps(){
-count=$(ps -ef |grep $1 |grep -v "grep" |wc -l)
-#echo $count
-if [ 0 == $count ];then
-java -Xms128M -Xmx2048M -jar senver.jar
-fi
-}
-while true; do
-
-check_ps java -Xms128M -Xmx2048M -jar senver.jar
-
-sleep 1000000000000000000000000000
-
-done
+cat /proc/version
+java -Dterminal.ansi=true -Xms128M -Xmx512M -jar server.jar
