@@ -1,5 +1,7 @@
 # xx-for-darknodes
 
+前面已经把玩具鸡的各种玩法讲了，对应nodejs与python平台，大家都很熟悉了，今天说说JAVA平台通用部署方法
+
 以[darknodes](https://client.darknodes.xyz/register?ref=oK3M8hG0)为例，介绍java平台部署x-ra-y的方法
 
 第一步：注册登录，现在创建服务器，选Bedrock，如下图
