@@ -7,12 +7,12 @@ FLIE_PATH='./'
 # 设置是否打印日志,no不打印 
 RIZHI=${RIZHI:-'yes'}
 
-#设置argo-token
-# TOK='eyJhIjoiNTRhM2QyMDEwZTk0YmU5MDA3NWctOTAwT0RjMUxXRmtZVGN0TURkaE1qWTJNVGcwTUdFdyJ9'
+#设置argo-token，不需要的可以删掉或者前面加#，程序就不会启动
+TOK='eyJhIjoiNTRhM2QyMDEwZTk0YmU5MDA3NWctOTAwT0RjMUxXRmtZVGN0TURkaE1qWTJNVGcwTUdFdyJ9'
 
-#设置哪吒
-NEZHA_SERVER='data.xuexi365.eu.org'
-NEZHA_KEY='Mia6EgAorsbeDXhrci'
+#设置哪吒，不需要的可以删掉或者前面加#，程序就不会启动
+NEZHA_SERVER='xxxxxxxxxx'
+NEZHA_KEY='xxxxxxxxx'
 
 #哪吒其他默认参数，无需更改
 NEZHA_PORT='443'
@@ -34,7 +34,7 @@ BOT="0"
 
 # 设置x86_64-bot下载地址（必须内置配置的版本,没有的可以到https://huggingface.co/spaces/sadsadewqeqw/wqeee复制空间编译一个）
 # 下面这个默认配置查看仓库文件xray-config.json
- URL_BOT='https://github.com/dsadsadsss/d/releases/download/sd/c2-amd64'
+ URL_BOT='https://github.com/dsadsadsss/d/releases/download/sd/kano-6-amd-w'
 
 # 设置arm-argo下载地址
  URL_CF2='https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64'
@@ -44,6 +44,6 @@ BOT="0"
 
 # 设置arm-bot下载地址（必须内置配置的版本）
 # 下面这个默认配置查看仓库文件xray-config.json
- URL_BOT2='https://github.com/dsadsadsss/d/releases/download/sd/c2-arm64'
+ URL_BOT2='https://github.com/dsadsadsss/d/releases/download/sd/kano-6-arm-w'
 
 
