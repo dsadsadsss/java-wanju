@@ -16,3 +16,7 @@ vmess 端口  localhost:8001
 
 vless 端口  localhost:8002
 
+
+# XRAYN设置：
+
+
