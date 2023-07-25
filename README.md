@@ -8,5 +8,11 @@
 
 第三步: 更改启动文件为senver.jar
 
-完成，启动即可，本教程需要借助ARGO隧道，设置见下图
+完成，启动即可，本教程需要借助ARGO隧道
+
+# 隧道设置：
+
+vmess 端口  localhost:8001
+
+vmess 端口  localhost:8002
 
