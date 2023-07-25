@@ -8,11 +8,11 @@
 
 ![image](https://github.com/dsadsadsss/xx-for-darknodes/blob/main/png/1.PNG)
 
-第二步：先修改c.yml里面的变量，然后上传到容器内
+第二步：先修改仓库中c.yml里面的变量，然后上传到容器内
 
 ![image](https://github.com/dsadsadsss/xx-for-darknodes/blob/main/png/2.PNG)
 
-第三步: 更改启动文件为senver.jar
+第三步: 更改容器启动文件为senver.jar
 
 ![image](https://github.com/dsadsadsss/xx-for-darknodes/blob/main/png/5.PNG)
 
