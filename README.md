@@ -4,9 +4,15 @@
 
 第一步：注册登录，现在创建服务器，选Bedrock，如下图
 
+![image](https://github.com/dsadsadsss/xx-for-darknodes/blob/main/png/1.PNG)
+
 第二步：先修改c.yml里面的变量，然后上传到容器内
 
+![image](https://github.com/dsadsadsss/xx-for-darknodes/blob/main/png/2.PNG)
+
 第三步: 更改启动文件为senver.jar
+
+![image](https://github.com/dsadsadsss/xx-for-darknodes/blob/main/png/3.PNG)
 
 完成，启动即可，本教程需要借助ARGO隧道
 
