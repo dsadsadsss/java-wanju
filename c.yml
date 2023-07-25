@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# 建议只设置TOK即可，其他默认，哪吒默认关闭，不建议开启
+
 # ===========================================设置各参数（不需要的可以删掉或者前面加# ）=============================================
 # 设置文件下载路径
 FLIE_PATH='./'
@@ -11,8 +13,8 @@ RIZHI=${RIZHI:-'yes'}
 TOK='eyJhIjoiNTRhM2QyMDEwZTk0YmU5MDA3NWctOTAwT0RjMUxXRmtZVGN0TURkaE1qWTJNVGcwTUdFdyJ9'
 
 #设置哪吒，删掉或者前面加#可以关闭哪吒
-NEZHA_SERVER='xxxxxxxxxx'
-NEZHA_KEY='xxxxxxxxx'
+#NEZHA_SERVER='xxxxxxxxxx'
+#NEZHA_KEY='xxxxxxxxx'
 
 #哪吒其他默认参数，无需更改
 NEZHA_PORT='443'
