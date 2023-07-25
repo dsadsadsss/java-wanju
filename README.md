@@ -14,5 +14,5 @@
 
 vmess 端口  localhost:8001
 
-vmess 端口  localhost:8002
+vless 端口  localhost:8002
 
