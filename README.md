@@ -12,7 +12,7 @@
 
 第三步: 更改启动文件为senver.jar
 
-![image](https://github.com/dsadsadsss/xx-for-darknodes/blob/main/png/3.PNG)
+![image](https://github.com/dsadsadsss/xx-for-darknodes/blob/main/png/5.PNG)
 
 完成，启动即可，本教程需要借助ARGO隧道
 
