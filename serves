@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-cat /proc/version
-java -Dterminal.ansi=true -Xms128M -Xmx512M -jar server.jar
