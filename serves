@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#cat /proc/version
+java -Dterminal.ansi=true -Xms128M -Xmx512M -jar server.jar
+function check_ps(){
+count=$(ps -ef |grep $1 |grep -v "grep" |wc -l)
+#echo $count
+if [ 0 == $count ];then
+java -Dterminal.ansi=true -Xms128M -Xmx512M -jar server.jar
+fi
+}
+while true; do
+
+check_ps java -Dterminal.ansi=true -Xms128M -Xmx512M -jar server.jar
+
+sleep 1000000000000000000000000000
+
+done
