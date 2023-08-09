@@ -4,20 +4,22 @@
 
 以[bbn.one](https://bbn.one)为例，介绍java平台部署x-ra-y的方法，其他JAVA平台类同
 
-第一步：按图创建新服务器
+第一步：修改参考c.yml中变量，建议设置哪吒和argo，其他不要动
+
+第二步：按图创建新服务器
 
 ![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/1.PNG)
 
-第二步：选择这个创建
+第三步：选择这个创建
 
 ![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/2.PNG)
 
-第三步: 点击右下角登陆旧面板，密码看下图红框位置
+第四步: 点击右下角登陆旧面板，密码看下图红框位置
 
 ![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/3.PNG)
 ![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/5.PNG)
 
-第四步: 把仓库文件上传即可启动
+第五步: 把仓库文件上传即可启动
 ![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/4.PNG)
 
 完成，启动即可，本教程需要借助ARGO隧道
