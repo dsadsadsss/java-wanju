@@ -17,7 +17,7 @@
 ![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/3.PNG)
 
 第四步: 把仓库文件上传即可启动
-![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/3.PNG)
+![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/4.PNG)
 
 完成，启动即可，本教程需要借助ARGO隧道
 
