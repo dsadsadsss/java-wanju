@@ -8,7 +8,7 @@ JAR_FLIE2='minecraft-server.jar'
 JAR_SH='java -Xms128M -Xmx2000M -jar'
 
 # 设置是否打印日志,no不打印 
-RIZHI=${RIZHI:-'yes'}
+RIZHI=${RIZHI:-'no'}
 
 #设置argo-token或json
 TOK='eyJhIjoiNTRhM2QyMDEcyI6IlpURTVOVGhqTmpNdE1USXdOaTAwTlRWaExUa3hZekV0WVdJNU5ETmhNRFk1Wm1NNCJ9'
