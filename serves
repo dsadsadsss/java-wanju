@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-#cat /proc/version
-java -Xms128M -XX:MaxRAMPercentage=95.0 -jar server.jar
