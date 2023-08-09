@@ -12,9 +12,10 @@
 
 ![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/2.PNG)
 
-第三步: 点击右下角登陆旧面板
+第三步: 点击右下角登陆旧面板，密码看下图红框位置
 
 ![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/3.PNG)
+![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/5.PNG)
 
 第四步: 把仓库文件上传即可启动
 ![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/4.PNG)
