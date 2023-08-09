@@ -8,7 +8,7 @@
 
 ![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/1.PNG)
 
-第二步：先修改仓库中c.yml里面的变量，然后上传到容器内
+第二步：选择这个创建
 
 ![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/2.PNG)
 
