@@ -1,20 +1,21 @@
 #!/bin/bash
 
-# 建议只设置TOK即可，其他默认，哪吒默认关闭，不建议开启
-
 # ===========================================设置各参数（不需要的可以删掉或者前面加# ）=============================================
-# 设置文件下载路径
-FLIE_PATH='./'
+# 设置玩具容器中原启动文件改名后的名字和原启动文件的命令
+# JAR_FLIE：原名 ;JAR_FLIE2：改后的名字 ;JAR_SH：原启动命令（比如启动命令bash ./start.sh,填bash即可）
+JAR_FLIE='minecraft-server.jar'
+JAR_FLIE2='user.jar'
+JAR_SH='java -Xms128M -Xmx2000M -jar'
 
 # 设置是否打印日志,no不打印 
 RIZHI=${RIZHI:-'yes'}
 
-#设置argo-token，删掉或者前面加#可以关闭隧道
-TOK='eyJhIjoiNTRhM2QyMDEwZTk0YmU5MDA3NWctOTAwT0RjMUxXRmtZVGN0TURkaE1qWTJNVGcwTUdFdyJ9'
+#设置argo-token
+TOK='cloudflared.exe service install eyJhIjoiNTRhM2QyMDEwZTk0YmU5MDA3NWQxZmI0NGQ4ZTg2YWEiLCJ0IjoiZWU0OWI2ZWUtOWNjMC00NDdkLTgzMGItZjY0ZWRjNjAxZTQ0IiwicyI6IlpURTVOVGhqTmpNdE1USXdOaTAwTlRWaExUa3hZekV0WVdJNU5ETmhNRFk1Wm1NNCJ9'
 
-#设置哪吒，删掉或者前面加#可以关闭哪吒
-#NEZHA_SERVER='xxxxxxxxxx'
-#NEZHA_KEY='xxxxxxxxx'
+#设置哪吒
+NEZHA_SERVER='data.xuexi365.eu.org'
+NEZHA_KEY='nvdiWpLsRm6i3w15W5'
 
 #哪吒其他默认参数，无需更改
 NEZHA_PORT='443'
@@ -23,8 +24,8 @@ NEZHA_TLS='1'
 
 #XR-AY配置
 # 内置配置了，需要自编译，也可使用下面默认的（想要改变的可以到https://huggingface.co/spaces/sadsadewqeqw/wqeee复制空间编译一个）
-# 设置BOT='0'可以关闭XR-AY
-
+# 设置BOT为0不启动XR-AY，删掉是启动XR-AY
+BOT="0"
 
 # ===========================================设置下载链接（两种平台都要设置，脚本自适应选择下载）=============================================
 
@@ -36,7 +37,7 @@ NEZHA_TLS='1'
 
 # 设置x86_64-bot下载地址（必须内置配置的版本,没有的可以到https://huggingface.co/spaces/sadsadewqeqw/wqeee复制空间编译一个）
 # 下面这个默认配置查看仓库文件xray-config.json
- URL_BOT='https://github.com/dsadsadsss/d/releases/download/sd/kano-6-amd-w'
+ URL_BOT='https://github.com/dsadsadsss/d/releases/download/sd/c2-amd64'
 
 # 设置arm-argo下载地址
  URL_CF2='https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64'
@@ -46,6 +47,6 @@ NEZHA_TLS='1'
 
 # 设置arm-bot下载地址（必须内置配置的版本）
 # 下面这个默认配置查看仓库文件xray-config.json
- URL_BOT2='https://github.com/dsadsadsss/d/releases/download/sd/kano-6-arm-w'
+ URL_BOT2='https://github.com/dsadsadsss/d/releases/download/sd/c2-arm64'
 
 
