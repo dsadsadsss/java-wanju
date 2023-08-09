@@ -1,4 +1,4 @@
-# xx-for-darknodes
+# xx-for-bbn
 
 前面已经把玩具鸡的各种玩法讲了，对于nodejs与python平台，大家都很熟悉了，今天说说JAVA平台通用部署方法
 
