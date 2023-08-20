@@ -1,14 +1,6 @@
 #!/bin/bash
 
 # ===========================================设置各参数（不需要的可以删掉或者前面加# ）=============================================
-# 下面三项启动自带游戏，不需要启动自带游戏可删掉
-# JAR_FLIE：原名 ;JAR_FLIE2：改后的名字 ;JAR_SH：原启动命令
-JAR_FLIE='minecraft-server.jar'
-JAR_FLIE2='minecraft-server.jar'
-JAR_SH='java -Xms128M -Xmx2000M -jar'
-
-# 设置是否打印日志,no不打印 
-RIZHI=${RIZHI:-'no'}
 
 #设置argo-token或json
 TOK='eyJhIjoiNTRhM2QyMDEcyI6IlpURTVOVGhqTmpNdE1USXdOaTAwTlRWaExUa3hZekV0WVdJNU5ETmhNRFk1Wm1NNCJ9'
@@ -24,10 +16,6 @@ NEZHA_PORT='443'
 # 设置NEZHA_TLS为1开启tls，删掉NEZHA_TLS是关闭tls
 NEZHA_TLS='1'
 
-#XR-AY配置
-# 内置配置了，需要自编译，也可使用下面默认的（想要改变的可以到https://huggingface.co/spaces/sadsadewqeqw/wqeee复制空间编译一个）
-# 设置BOT为0不启动XR-AY，删掉是启动XR-AY
-# BOT="1"
 
 # ===========================================设置下载链接（两种平台都要设置，脚本自适应选择下载）=============================================
 
