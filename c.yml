@@ -3,8 +3,8 @@
 ## ===========================================设置各参数（不需要的可以删掉或者前面加# ）=============================================
 
 # 设置ARGO参数 (不设置默认使用临时隧道，如果设置把前面的#去掉)
-# TOK='xxxxx'
-# ARGO_DOMAIN='xxxxx'
+# export TOK='xxxxx'
+# export ARGO_DOMAIN='xxxxx'
 
 #设置哪吒参数(NEZHA_TLS='1'开启tls,设置其他关闭tls)
 NEZHA_SERVER='xxxx'
