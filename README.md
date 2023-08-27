@@ -6,7 +6,7 @@
 
 第一步：修改参考c.yml中变量，建议设置哪吒和argo，其他不要动,不需要参数的直接删掉或加#注释掉
 
-第二步：按图创建新服务器
+第二步：创建java服务器
 
 ![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/1.PNG)
 
@@ -19,7 +19,7 @@
 ![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/3.PNG)
 ![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/5.PNG)
 
-第五步: 把仓库文件上传即可启动，不需要设置权限，启动文件名改为fabric-server-launch.jar
+第五步: 把仓库文件上传即可启动，不需要设置权限，启动文件名改为sever.jar
 ![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/4.PNG)
 ![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/6.PNG)
 完成，启动即可，本教程需要借助ARGO隧道
