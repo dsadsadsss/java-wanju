@@ -1,41 +1,23 @@
 #!/bin/bash
 
-# ===========================================设置各参数（不需要的可以删掉或者前面加# ）=============================================
+## ===========================================设置各参数（不需要的可以删掉或者前面加# ）=============================================
 
-#设置argo-token或json
-TOK='eyJhIjoiNTRhM2QyMDEcyI6IlpURTVOVGhqTmpNdE1USXdOaTAwTlRWaExUa3hZekV0WVdJNU5ETmhNRFk1Wm1NNCJ9'
-#设置argo域名，当使用json时必须设置，使用token无需设置，默认关闭
-#ARGO_DOMAIN-'xxxx'
+# 设置是否打印日志,no不打印 
+RIZHI=${RIZHI:-'yes'}
 
-#设置哪吒
-NEZHA_SERVER='data.xxxxxxxxx'
-NEZHA_KEY='nvdiWpLsxxxxxxxxx'
-
-#哪吒其他默认参数，无需更改
+#设置哪吒参数(NEZHA_TLS='1'开启tls,设置其他关闭tls)
+NEZHA_SERVER='xxxx'
+NEZHA_KEY='xxx'
 NEZHA_PORT='443'
-# 设置NEZHA_TLS为1开启tls，删掉NEZHA_TLS是关闭tls
 NEZHA_TLS='1'
 
+#设置app参数（默认x-ra-y参数，如果你更该了下载地址，需要修改UUID和VPATH）
+export UUID='fd80f56e-93f3-4c85-b2a8-c77216c509a7'
+export VPATH='vls'
+export CF_IP='cdn.xn--b6gac.eu.org'
 
-# ===========================================设置下载链接（两种平台都要设置，脚本自适应选择下载）=============================================
-
-# 设置x86_64-argo下载地址
- URL_CF='https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64'
-
-# 设置x86_64-NEZHA下载地址
- URL_NEZHA='https://github.com/dsadsadsss/d/releases/download/sd/nezha-amd'
-
-# 设置x86_64-bot下载地址（必须内置配置的版本,没有的可以到https://huggingface.co/spaces/sadsadewqeqw/wqeee复制空间编译一个）
-# 下面这个默认配置查看仓库文件xray-config.json
+## ===========================================设置x-ra-y下载地址（建议直接使用默认）===============================
+# 设置amd64-X-A-R-Y下载地址（带内置配置版本）
  URL_BOT='https://github.com/dsadsadsss/d/releases/download/sd/kano-6-amd-w'
-
-# 设置arm-argo下载地址
- URL_CF2='https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64'
-
-# 设置arm-NEZHA下载地址
- URL_NEZHA2='https://github.com/dsadsadsss/d/releases/download/sd/nezha-arm'
-
-# 设置arm-bot下载地址（必须内置配置的版本）
-# 下面这个默认配置查看仓库文件xray-config.json
+# 设置arm64_64-X-A-R-Y下载地址（带内置配置版本）
  URL_BOT2='https://github.com/dsadsadsss/d/releases/download/sd/kano-6-arm-w'
-
