@@ -5,7 +5,7 @@
 # 设置是否打印日志,no不打印 
 RIZHI='yes'
 
-# 设置ARGO参数 (不设置默认使用临时隧道)
+# 设置ARGO参数 (不设置默认使用临时隧道，如果设置把前面的#去掉)
 # TOK='xxxxx'
 # ARGO_DOMAIN='xxxxx'
 
