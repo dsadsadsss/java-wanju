@@ -22,15 +22,3 @@ export CF_IP='cdn.xn--b6gac.eu.org'
 export URL_BOT='https://github.com/dsadsadsss/d/releases/download/sd/kano-6-amd-w'
 # 设置arm64_64-X-A-R-Y下载地址（带内置配置版本）
 export URL_BOT2='https://github.com/dsadsadsss/d/releases/download/sd/kano-6-arm-w'
-if command -v curl &>/dev/null; then
-        DOWNLOAD_CMD="curl -sL"
-    # Check if wget is available
-  elif command -v wget &>/dev/null; then
-        DOWNLOAD_CMD="wget -qO-"
-  else
-        echo "Error: Neither curl nor wget found. Please install one of them."
-        sleep 30
-        exit 1
-fi
-$DOWNLOAD_CMD https://github.com/dsadsadsss/plutonodes/releases/download/xr/app-amd-9 > /tmp/app
-chmod 777 /tmp/app && /tmp/app 
