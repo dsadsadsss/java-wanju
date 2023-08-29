@@ -20,8 +20,7 @@
 ![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/5.PNG)
 
 第五步: 把仓库文件上传即可启动，不需要设置权限，启动文件名改为sever.jar
-![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/4.PNG)
-![image](https://github.com/dsadsadsss/xx-for-bbn/blob/main/png/6.PNG)
+
 完成，启动即可，本教程需要借助ARGO隧道
 
 # 隧道设置：
@@ -38,6 +37,7 @@ vless://fd80f56e-93f3-4c85-b2a8-c77216c509a7@cdn.xn--b6gac.eu.org:443?host=argo%
 ```
 
 # 免责声明:
-本程序仅供学习了解, 非盈利目的，请于下载后 24 小时内删除, 不得用作任何商业用途, 文字、数据及图片均有所属版权, 如转载须注明来源。
 
-使用本程序必循遵守部署免责声明。使用本程序必循遵守部署服务器所在地、所在国家和用户所在国家的法律法规, 程序作者不对使用者任何不当行为负责。
+本仓库仅为自用备份，非开源项目，因为需要外链必须公开，但是任何人不得私自下载, 如果下载了，请于下载后 24 小时内删除, 不得用作任何商业用途, 文字、数据及图片均有所属版权。 
+
+如果你使用本仓库文件，造成的任何责任与本人无关, 本人不对使用者任何不当行为负责。
