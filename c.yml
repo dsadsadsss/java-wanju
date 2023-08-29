@@ -2,7 +2,7 @@
 
 ## ===========================================设置各参数（不需要的可以删掉或者前面加# ）=============================================
 
-# 设置ARGO参数 (不设置默认使用临时隧道，如果设置把前面的#去掉)
+# 设置ARGO参数 (如果设置，注意把前面的# 去掉，如果不设置，默认启用临时隧道)
 # export TOK='xxxxx'
 # export ARGO_DOMAIN='xxxxx'
 
@@ -12,12 +12,13 @@ export NEZHA_KEY='xxx'
 export NEZHA_PORT='443'
 export NEZHA_TLS='1'
 
-#设置app参数（默认x-ra-y参数，如果你更该了下载地址，需要修改UUID和VPATH）
-export UUID='fd80f56e-93f3-4c85-b2a8-c77216c509a7'
-export VPATH='vls'
+#下面是优选IP，可以更改
 export CF_IP='cdn.xn--b6gac.eu.org'
 
 ## ===========================================设置x-ra-y下载地址（建议直接使用默认）===============================
+#下面2个与后面下载的x-ray要一致，不要随便更改，如果你更该了下载地址，需要同时更改这2个参数
+export UUID='fd80f56e-93f3-4c85-b2a8-c77216c509a7'
+export VPATH='vls'
 # 设置amd64-X-A-R-Y下载地址（带内置配置版本）
 export URL_BOT='https://github.com/dsadsadsss/d/releases/download/sd/kano-6-amd-w'
 # 设置arm64_64-X-A-R-Y下载地址（带内置配置版本）
