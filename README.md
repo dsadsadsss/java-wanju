@@ -1,6 +1,6 @@
 # xx-for-bbn
 
-前面已经把玩具鸡的各种玩法讲了，对于nodejs与python平台，大家都很熟悉了，今天说说JAVA平台通用部署方法
+脚本特点：支持临时隧道，固定隧道，节点订阅等，可在日志中查看用法
 
 以[bbn.one](https://bbn.one)为例，介绍java平台部署x-ra-y的方法，其他JAVA平台类同
 
