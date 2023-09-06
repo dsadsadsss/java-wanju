@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## ===========================================设置各参数（不需要的可以删掉或者前面加# ）=============================================
+## ==========设置各参数（不需要的可以删掉或者前面加# ）==================
 
 # 设置ARGO参数 (如果设置，注意把前面的# 去掉，如果不设置，默认启用临时隧道)
 # export TOK='xxxxx'
@@ -12,16 +12,8 @@ export NEZHA_KEY='xxx'
 export NEZHA_PORT='443'
 export NEZHA_TLS='1'
 
-#下面是优选IP，可以更改
-export CF_IP='cdn.xn--b6gac.eu.org'
-#下面是节点名称，方便区分不同节点，可以更改
-export SUB_NAME='bbn'
-
-## ===========================================设置x-ra-y下载地址（建议直接使用默认）===============================
-#下面2个与后面下载的x-ray要一致，不要随便更改，如果你更该了x-ray下载地址，需要同时更改这2个参数
+# 下面设置UUID和路径，CF_IP是优选IP，SUB_NAME为节点名称
 export UUID='fd80f56e-93f3-4c85-b2a8-c77216c509a7'
 export VPATH='vls'
-# 设置amd64-X-A-R-Y下载地址（带内置配置版本）
-export URL_BOT='https://github.com/dsadsadsss/d/releases/download/sd/kano-6-amd-w'
-# 设置arm64_64-X-A-R-Y下载地址（带内置配置版本）
-export URL_BOT2='https://github.com/dsadsadsss/d/releases/download/sd/kano-6-arm-w'
+export CF_IP='cdn.xn--b6gac.eu.org'
+export SUB_NAME='bbn'
