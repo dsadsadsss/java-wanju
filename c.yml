@@ -21,6 +21,7 @@ export SUB_NAME='bbn'
 #export SERVER_PORT='3000'
 
 # 设置启动玩具平台原程序，其他平台不需要,JAR_FLIE:改后的名字 ;JAR_SH：原启动命令前缀，JAR_SH2：原启动命令后缀
-export JAR_FLIE='senver.jar'
-export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -jar'
+# export JAR_FLIE='senver.jar'
+# export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -jar'
 # export JAR_SH2=''
+# 原程序启动，则订阅不可用
