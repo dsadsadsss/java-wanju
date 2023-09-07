@@ -20,3 +20,8 @@ export SUB_NAME='bbn'
 # 设置启动玩具原程序，senver.jar 原启动文件改名
 # export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -jar senver.jar'
 # 默认启动原游戏后，不显示日志，请手动输入订阅地址：/sub-uuid
+
+
+
+
+
