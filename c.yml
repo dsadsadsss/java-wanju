@@ -17,7 +17,7 @@ export VPATH='vls'
 export CF_IP='cdn.xn--b6gac.eu.org'
 export SUB_NAME='bbn'
 #设置订阅上传地址
-export SUB_URL='https://sadsadewqeqw-sub.hf.space/upload-3e9126ae-5492-471b-9a91-11a4dbd640c2'
+export SUB_URL='xxx'
 
 # 设置启动玩具原程序，senver.jar 原启动文件改名
 # export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -jar senver.jar'
