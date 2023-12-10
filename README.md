@@ -35,6 +35,8 @@ https://github.com/dsadsadsss/python-wanju.git
 
 https://github.com/dsadsadsss/nodejs-wanju.git
 
+https://github.com/dsadsadsss/nodejs-wanju2.git
+
 https://github.com/dsadsadsss/bedrock-wanju.git
 
 https://github.com/dsadsadsss/PHP-wanju.git
