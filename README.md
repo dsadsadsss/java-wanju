@@ -33,6 +33,8 @@ vless 端口  localhost:8002
 # 其他玩具平台：
 https://github.com/dsadsadsss/python-wanju.git
 
+https://github.com/dsadsadsss/python-wanju2.git
+
 https://github.com/dsadsadsss/nodejs-wanju.git
 
 https://github.com/dsadsadsss/nodejs-wanju2.git
