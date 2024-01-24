@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# 设置固定隧道参数 (如果设置，注意把前面的# 去掉，如果不设置，默认启用临时隧道)
-# export TOK='xxxxx'
-# export ARGO_DOMAIN='xxxxx'
+# 设置固定隧道参数 (如果不设置，默认启用临时隧道)
+export TOK=''
+export ARGO_DOMAIN=''
 
 #设置哪吒参数(NEZHA_TLS='1'开启tls,设置其他关闭tls)
-export NEZHA_SERVER='xxxx'
-export NEZHA_KEY='xxx'
+export NEZHA_SERVER=''
+export NEZHA_KEY=''
 export NEZHA_PORT='443'
 export NEZHA_TLS='1'
 
@@ -17,6 +17,6 @@ export CF_IP='ip.sb'
 export SUB_NAME='bbn'
 
 
-# 设置启动玩具原程序，把原游戏文件改名senver.jar
+# 启动玩具原程序，把原游戏文件改名senver.jar
 # export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -jar senver.jar'
-# 默认启动原游戏后，不显示日志
+# 默认不开启，需要开启请去掉前面的#号，启动原游戏后，不显示日志
