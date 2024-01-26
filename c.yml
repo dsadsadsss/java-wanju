@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # 设置固定隧道参数,默认端口vless:8002，vmess:8001 (如果不设置，默认启用临时隧道，端口自动，无需手动设置)
-export TOK=''
+# json或token,支持直接复制全部，如cloudflared.exe service install eyxxx，json获取地址https://fscarmen.cloudflare.now.cc
+export TOK='' 
 export ARGO_DOMAIN=''
 
 #设置哪吒参数(NEZHA_TLS='1'开启tls,设置其他关闭tls)
