@@ -19,4 +19,3 @@ export SUB_NAME='bbn'
 
 # 启动玩具原程序，把原游戏文件改名senver.jar,默认不开启，如果开启请去掉前面的#号，注意原游戏启动后，不显示节点日志
 # export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -jar senver.jar' 
-# 小技巧设置JAR_SH='sleep 2' 可以不显示日志，手搓节点
