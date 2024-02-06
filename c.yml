@@ -18,6 +18,7 @@ export CF_IP='ip.sb'
 export SUB_NAME='bbn'
 
 # 启动玩具原程序，把原游戏文件改名senver.jar,默认不开启，如果开启请去掉前面的#号，注意原游戏启动后，不显示节点日志
+# 其他只要是jar启动的玩具都可以类似修改
 # export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -jar senver.jar' 
 
 # 设置是否显示日志，默认显示，填no不显示，yes显示
