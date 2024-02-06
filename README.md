@@ -37,8 +37,9 @@ https://github.com/dsadsadsss/python-wanju.git
 
 https://github.com/dsadsadsss/nodejs-wanju.git
 
-
 https://github.com/dsadsadsss/bedrock-wanju.git
+
+https://github.com/dsadsadsss/ts3server-wanju.git
 
 
 # 免责声明:
