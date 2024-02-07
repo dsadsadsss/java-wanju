@@ -49,6 +49,14 @@ https://github.com/dsadsadsss/ts3server-wanju.git
 
 https://github.com/dsadsadsss/PHP-wanju.git
 
+# docker平台：
+
+https://github.com/dsadsadsss/nodejs-wanju2.git
+
+# Vps平台：
+
+bash <(wget -qO- https://raw.githubusercontent.com/dsadsadsss/vps-argo/main/install.sh)
+
 
 # 免责声明:
 
