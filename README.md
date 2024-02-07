@@ -53,9 +53,14 @@ https://github.com/dsadsadsss/PHP-wanju.git
 
 https://github.com/dsadsadsss/nodejs-wanju2.git
 
-# Vps平台：
-
+# Vps平台：一键脚本
+```
 bash <(wget -qO- https://raw.githubusercontent.com/dsadsadsss/vps-argo/main/install.sh)
+```
+或者
+```
+bash <(curl -sL https://raw.githubusercontent.com/dsadsadsss/vps-argo/main/install.sh)
+```
 
 
 # 免责声明:
