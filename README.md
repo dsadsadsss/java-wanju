@@ -24,9 +24,9 @@
 
 # 固定隧道设置：
 
-vmess 端口  localhost:8001
+vmess 端口  localhost:8001 路径:vms
 
-vless 端口  localhost:8002
+vless 端口  localhost:8002 路径:vls
 
 
 # 其他玩具平台：
