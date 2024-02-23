@@ -24,7 +24,7 @@ export CF_IP='ip.sb'
 export SUB_NAME='bbn'
 
 #=======================================
-# 启动玩具原程序，把原游戏文件改名senver.jar,默认开启，如果需要关闭，在exportH参数前面加上# 即可
+# 启动玩具原程序，把原游戏文件改名senver.jar,默认关闭，需要开启只需去掉export前面#号即可
 # 注意原游戏启动后，不显示节点日志
 
 # export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -jar senver.jar' #复制原启动命令填入并修改启动文件名为senver.jar
