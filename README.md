@@ -44,6 +44,8 @@ https://github.com/dsadsadsss/ts3server-wanju.git
 
 https://github.com/dsadsadsss/PHP-wanju.git
 
+https://github.com/dsadsadsss/nginx-wanju.git
+
 # docker平台：
 
 https://github.com/dsadsadsss/nodejs-wanju2.git
