@@ -50,6 +50,8 @@ https://github.com/dsadsadsss/nginx-wanju.git
 
 https://github.com/dsadsadsss/nodejs-wanju2.git
 
+https://github.com/dsadsadsss/python-wanju2.git
+
 # Vps平台：一键脚本
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/dsadsadsss/vps-argo/main/install.sh)
