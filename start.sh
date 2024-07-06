@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 设置ARGO参数 (不设置则临时隧道，固定隧道端口8002,路径vls)
+# 设置ARGO参数 (不设置则临时隧道，固定隧道设置端口8002,协议vless,ws,tls,路径vls)
 # json获取地址https://fscarmen.cloudflare.now.cc
 export TOK=${TOK:-''} # json或token,支持直接复制cloudflared.exe service开头全部
 export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
