@@ -6,7 +6,7 @@
 
 ### 7.3号更新：
 
-1.代码重构，除了Java需要重新下载外，其他重启即可
+1.代码重构，除了Java需要重新下载外，其他重启即可,节点直接复制或者手动填入，格式如下vless://UUID@优选ip:443?path=%2Fs200%3Fed%3D2048&security=tls&encryption=none&host=隧道域名&type=ws&sni=隧道域名#vps
 
 
 ### 2.8号更新：
