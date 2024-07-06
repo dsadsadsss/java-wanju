@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 下面设置ARGO参数 (如果设置，注意把前面的# 去掉，如果不设置，默认启用临时隧道)
+# 下面设置ARGO参数 (不设置则临时隧道，固定隧道端口8002,路径vls)
 # json或token,支持直接复制全部，如cloudflared.exe service install eyxxx，json获取地址https://fscarmen.cloudflare.now.cc
 export TOK=${TOK:-''}
 export ARGO_DOMAIN=${ARGO_DOMAIN:-''}
