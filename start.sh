@@ -22,7 +22,7 @@ export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称
 
 # 设置启动游戏原程序，先把原启动文件server.jar改名成senver.jar，其他游戏也可类似修改启动文件
 # 复制原来的启动命令并改启动文件名为senver.jar填入下面即可
-# export JAR_SH='java -jar senver.jar'#启用请去掉前面的#号
+# export JAR_SH='java -jar senver.jar' # 启用需去掉前面的#号，启用后节点信息不再显示，只显示游戏信息
 
 
 # 启动脚本
