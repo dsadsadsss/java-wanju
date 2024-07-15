@@ -22,6 +22,12 @@ export VM_PORT=${VM_PORT:-'8001'} #vmess端口
 export CF_IP=${CF_IP:-'ip.sb'} # 优选ip
 export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称
 
+
+# 设置3件套文件名称，防止关键词封禁
+export ne_file=${ne_file:-'nene.js'}
+export cff_file=${cff_file:-'cff.js'}
+export web_file=${web_file:-'web.js'}
+
 # 设置启动游戏原程序，先把原启动文件server.jar改名成senver.jar，其他游戏也可类似修改启动文件
 # 复制原来的启动命令并改启动文件名为senver.jar填入下面即可
 # export JAR_SH='java -jar senver.jar' # 启用需去掉前面的#号，启用后节点信息不再显示，只显示游戏信息
