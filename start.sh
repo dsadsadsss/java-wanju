@@ -24,9 +24,9 @@ export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称
 
 
 # 设置3件套文件名称，防止关键词封禁
-export ne_file=${ne_file:-'nene.js'}
-export cff_file=${cff_file:-'cff.js'}
-export web_file=${web_file:-'web.js'}
+export ne_file=${ne_file:-'nene.js'}#哪吒
+export cff_file=${cff_file:-'cff.js'}#隧道
+export web_file=${web_file:-'web.js'}#xry
 
 # 设置启动游戏原程序，先把原启动文件server.jar改名成senver.jar，其他游戏也可类似修改启动文件
 # 复制原来的启动命令并改启动文件名为senver.jar填入下面即可
