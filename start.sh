@@ -23,7 +23,7 @@ export CF_IP=${CF_IP:-'ip.sb'}  # 优选ip
 export SUB_NAME=${SUB_NAME:-'argo'}  # 节点名称
 
 
-# 设置3件套文件名称，防止关键词封禁
+# 设置3件套文件名称，防止关键词封禁，建议修改
 export ne_file=${ne_file:-'nene.js'} # 哪吒
 export cff_file=${cff_file:-'cff.js'} # 隧道
 export web_file=${web_file:-'web.js'} # xry
