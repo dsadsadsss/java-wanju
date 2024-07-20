@@ -21,8 +21,11 @@ export MPATH=${MPATH:-'vms'}  # vmess路径
 export VM_PORT=${VM_PORT:-'8001'} # vmess端口
 export CF_IP=${CF_IP:-'ip.sb'}  # 优选ip
 export SUB_NAME=${SUB_NAME:-'argo'}  # 节点名称
-export TMP_ARGO=${TMP_ARGO:-'vls'}  #设置临时隧道使用协议，vls则使用vless,vms则使用vmess
 
+# 设置节点协议及reality参数(vls,vms,rel),注意reality不螚开游戏
+export TMP_ARGO=${TMP_ARGO:-'vls'}  #设置节点使用的协议
+export SERVER_PORT="${SERVER_PORT:-${PORT:-443}}" #ip地址不能被墙，端口不能被占，所以不能同时开游戏
+export SNI=${SNI:-'www.apple.com'} # tls网站
 # 设置3件套文件名称，防止关键词封禁，建议修改
 export ne_file=${ne_file:-'nene.js'} # 哪吒
 export cff_file=${cff_file:-'cff.js'} # 隧道
