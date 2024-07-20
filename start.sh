@@ -13,18 +13,15 @@ export NEZHA_PORT=${NEZHA_PORT:-'443'}
 export NEZHA_TLS=${NEZHA_TLS:-'1'}
 
 
-# 设置UUID和路径等
-export UUID=${UUID:-'fd80f56e-93f3-4c85-b2a8-c77216c509a7'}
-export VPATH=${VPATH:-'vls'}  # vless路径
+# 设置端口，优选，节点名称等
 export VL_PORT=${VL_PORT:-'8002'}  # vless端口
-export MPATH=${MPATH:-'vms'}  # vmess路径
 export VM_PORT=${VM_PORT:-'8001'} # vmess端口
 export CF_IP=${CF_IP:-'ip.sb'}  # 优选ip
 export SUB_NAME=${SUB_NAME:-'argo'}  # 节点名称
 
 # 设置节点协议及reality参数(vls,vms,rel),注意reality不螚开游戏
 export TMP_ARGO=${TMP_ARGO:-'vls'}  #设置节点使用的协议，默认vless
-export SERVER_PORT="${SERVER_PORT:-${PORT:-443}}" #ip地址不能被墙，端口不能被占，所以不能同时开游戏
+export SERVER_PORT="${SERVER_PORT:-${PORT:-443}}" #端口不能被占，所以不能同时开游戏
 export SNI=${SNI:-'www.apple.com'} # tls网站
 
 # 设置3件套文件名称，防止关键词封禁，建议修改
