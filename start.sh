@@ -14,6 +14,7 @@ export NEZHA_TLS=${NEZHA_TLS:-'1'}
 
 
 # 设置端口，优选，节点名称等
+export UUID=${UUID:-'fd80f56e-93f3-4c85-b2a8-c77216c509a7'} #若去掉这个设置则可使用随机
 export VL_PORT=${VL_PORT:-'8002'}  # vless端口
 export VM_PORT=${VM_PORT:-'8001'} # vmess端口
 export CF_IP=${CF_IP:-'ip.sb'}  # 优选ip
