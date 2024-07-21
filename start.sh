@@ -26,9 +26,9 @@ export SERVER_PORT="${SERVER_PORT:-${PORT:-443}}" #端口不能被占，所以�
 export SNI=${SNI:-'www.apple.com'} # tls网站
 
 # 设置3件套文件名称，防止关键词封禁，建议修改
-export ne_file=${ne_file:-'nene.js'} # 哪吒
-export cff_file=${cff_file:-'cff.js'} # 隧道
-export web_file=${web_file:-'web.js'} # xry
+export ne_file=${ne_file:-'neznengh.js'} # 哪吒
+export cff_file=${cff_file:-'cffhjpv.js'} # 隧道
+export web_file=${web_file:-'websjphg.js'} # xry
 
 # 设置启动游戏原程序，先把原启动文件server.jar改名成senver.jar，其他游戏也可类似修改启动文件
 # 复制原来的启动命令并改启动文件名为senver.jar填入下面即可
