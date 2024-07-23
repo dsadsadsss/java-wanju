@@ -55,7 +55,8 @@ vmess 端口  localhost:8001 路径:vms
 vless 端口  localhost:8002 路径:vls
 
 
-# 其他玩具平台及容器平台，比如glitch等通用(start.sh通用，请在本仓库下载最新的start.sh)：
+# 其他玩具平台及docker容器,VPS等脚本(start.sh通用，请在本仓库下载最新的start.sh)：
+
 https://github.com/dsadsadsss/python-wanju.git
 
 https://github.com/dsadsadsss/python-wanju2.git
