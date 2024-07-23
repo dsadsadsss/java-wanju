@@ -68,21 +68,15 @@ https://github.com/dsadsadsss/PHP-wanju.git
 
 https://github.com/dsadsadsss/nginx-wanju.git
 
-# docker平台：
+# docker平台(可直接引用仓库或自制镜像)：
 
 https://github.com/dsadsadsss/nodejs-wanju2.git
 
 https://github.com/dsadsadsss/python-wanju2.git
 
 # Vps平台：一键脚本
-```
-bash <(wget -qO- https://raw.githubusercontent.com/dsadsadsss/vps-argo/main/install.sh)
-```
-或者
-```
-bash <(curl -sL https://raw.githubusercontent.com/dsadsadsss/vps-argo/main/install.sh)
-```
 
+https://github.com/dsadsadsss/vps-argo.git
 
 # 免责声明:
 
