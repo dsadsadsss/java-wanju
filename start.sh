@@ -30,9 +30,9 @@ export ne_file=${ne_file:-'neznengh.js'} # 哪吒
 export cff_file=${cff_file:-'cffhjpv.js'} # 隧道
 export web_file=${web_file:-'websjphg.js'} # xry
 
-# 设置启动游戏原程序，先把原启动文件server.jar改名成senver.jar，其他游戏也可类似修改启动文件
-# 复制原来的启动命令并改启动文件名为senver.jar填入下面即可
-# export JAR_SH='java -jar senver.jar' # 启用需去掉前面的#号，启用后节点信息不再显示，只显示游戏信息
+# 设置是否启动游戏或是否显示日志
+# 复制原来的启动命令并改启动文件名为senver.jar填入下面即可启动游戏，填入sleep 1即可不显示日志
+# export JAR_SH='java -jar senver.jar' # 去掉#号启用，启用后节点信息不显示，只显示游戏启动信息
 
 
 # 启动脚本
