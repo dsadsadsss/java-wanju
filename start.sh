@@ -20,8 +20,8 @@ export VM_PORT=${VM_PORT:-'8001'} # vmess端口
 export CF_IP=${CF_IP:-'ip.sb'}  # 优选ip
 export SUB_NAME=${SUB_NAME:-'argo'}  # 节点名称
 
-# 设置节点协议及reality参数(vls,vms,rel),注意reality不螚开游戏
-export TMP_ARGO=${TMP_ARGO:-'vls'}  #设置节点使用的协议，默认vless
+# 设置节点协议(可选vls,vms,rel)及reality参数,注意reality不螚开游戏
+export TMP_ARGO=${TMP_ARGO:-'vls'}  #设置节点使用的协议，默认即vless，需要vmess填vms
 export SERVER_PORT="${SERVER_PORT:-${PORT:-443}}" #端口不能被占，所以不能同时开游戏
 export SNI=${SNI:-'www.apple.com'} # tls网站
 
