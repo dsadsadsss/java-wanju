@@ -6,7 +6,7 @@
 
 1.支持临时隧道，固定隧道，3种协议可选
 
-2.支持玩具，docker容器，vps等几乎所有权限不限制的平台，支持nodejs,python,java等常规平台如glitch,Replit,sandbox,bbn等
+2.支持玩具，docker容器，vps等几乎所有权限不限制的平台，支持nodejs,python,java等，具体看文档最后链接.
 
 3.建议使用固定隧道，设置UUID，如果使用临时隧道，重启节点会改变。临时隧道可以使用nodejs-wanju2仓库，这个支持订阅，使用时更新订阅即可，不怕节点改变。
 
