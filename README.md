@@ -1,5 +1,7 @@
 # vps、docker、玩具等全平台部署xray，支持nodejs,python,Java等多语言
 
+有问题到群里反馈https://t.me/HiaiFeng
+
 脚本特点：
 
 1.支持临时隧道，固定隧道，3种协议可选
