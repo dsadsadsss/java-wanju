@@ -22,7 +22,7 @@ export SUB_NAME=${SUB_NAME:-'argo'}  # 节点名称
 
 # 设置节点协议(可选vls,vms,rel)及reality参数,注意reality不螚开游戏
 export TMP_ARGO=${TMP_ARGO:-'vls'}  #设置节点使用的协议，默认即vless，需要vmess填vms
-export SERVER_PORT="${SERVER_PORT:-${PORT:-443}}" #端口不能被占，所以不能同时开游戏
+export SERVER_PORT="${SERVER_PORT:-${PORT:-443}}" #端口不能被占，所以不能同时开游戏，nodejs,python等端口也要改成别的
 export SNI=${SNI:-'www.apple.com'} # tls网站
 
 # 设置3件套文件名称，防止关键词封禁，建议修改
