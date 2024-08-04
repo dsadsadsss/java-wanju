@@ -16,8 +16,8 @@ export VL_PORT=${VL_PORT:-'8002'}   # vles 端口
 export VM_PORT=${VM_PORT:-'8001'} # vmes 端口
 export SUB_NAME=${SUB_NAME:-'VPS'} # 节点名称
 
-# reality相关设置(不能同时开游戏)
-export SERVER_PORT="${SERVER_PORT:-${PORT:-443}}" # 端口
+# reality相关设置(不能同时开游戏.nodejs和python端口要改成别的，不能占用玩具端口)
+export SERVER_PORT="${SERVER_PORT:-${PORT:-443}}" # 端口，玩具自动识别，其他手动修改
 export SNI=${SNI:-'www.apple.com'} # tls网站
 
 # 游戏相关设置(去掉#开启游戏，复制启动命令填在下面)
