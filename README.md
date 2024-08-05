@@ -76,7 +76,7 @@ https://github.com/dsadsadsss/python-wanju2.git
 
 https://github.com/dsadsadsss/nodejs-wanju.git
 
-https://github.com/dsadsadsss/nodejs-wanju2.git
+https://github.com/dsadsadsss/nodejs-wanju2.git  (支持订阅，适合临时隧道使用)
 
 https://github.com/dsadsadsss/bedrock-wanju.git
 
