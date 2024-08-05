@@ -14,6 +14,7 @@ export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
 export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,rel
 export VL_PORT=${VL_PORT:-'8002'}   # vles 端口
 export VM_PORT=${VM_PORT:-'8001'} # vmes 端口
+export CF_IP=${CF_IP:-'ip.sb'}  # cf优选
 export SUB_NAME=${SUB_NAME:-'VPS'} # 节点名称
 
 # reality相关设置(不能同时开游戏.nodejs和python端口要改成别的，不能占用玩具端口)
