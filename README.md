@@ -2,7 +2,7 @@
 
 有问题到群里反馈
 
-https://t.me/HiaiFeng
+https://t.me/kBkpsP8Hk0M0ZmE1
 
 脚本特点：
 
