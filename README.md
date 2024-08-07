@@ -21,7 +21,9 @@ https://t.me/kBkpsP8Hk0M0ZmE1
 
 https://github.com/dsadsadsss/nodejs-Nezha-server.git
 
-2.新增NEZ_AMD_URL 、NEZ_ARM_URL参数，如果你想使用最新哪吒可以把这两个下载链接替换掉
+2.新增NEZ_AMD_URL 、NEZ_ARM_URL参数，如果你想使用最新哪吒可以把这两个下载链接替换掉。
+
+但是不建议使用新版哪吒，问题很多，会爆炸内存
 
 ### 7.20号更新
 
