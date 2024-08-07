@@ -17,7 +17,7 @@ https://t.me/kBkpsP8Hk0M0ZmE1
 
 ### 8.5 更新
 
-1.默认哪吒改为0.17.6，不支持新哪吒面板，面板需要降级到0.17.9以下。需要面板降级的的可以参考
+1.默认哪吒改为0.15.5，不支持新哪吒面板，面板需要降级到0.17.9以下。需要面板降级的的可以参考
 
 https://github.com/dsadsadsss/nodejs-Nezha-server.git
 
