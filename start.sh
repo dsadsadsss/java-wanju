@@ -11,7 +11,7 @@ export NEZHA_PORT=${NEZHA_PORT:-'443'}
 export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
 
 # 节点相关设置
-export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,rel
+export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,rel,hys
 export VL_PORT=${VL_PORT:-'8002'}   # vles 端口
 export VM_PORT=${VM_PORT:-'8001'} # vmes 端口
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选
