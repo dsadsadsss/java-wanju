@@ -15,7 +15,7 @@ export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,rel,hys
 export VL_PORT=${VL_PORT:-'8002'}   # vles 端口
 export VM_PORT=${VM_PORT:-'8001'} # vmes 端口
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选
-export SUB_NAME=${SUB_NAME:-'VPS'} # 节点名称
+export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
 
 # reality相关设置(不能同时开游戏.nodejs和python端口要改成别的，不能占用玩具端口)
 export SERVER_PORT=${SERVER_PORT:-'8000'} # 端口，玩具自动识别，其他手动修改
