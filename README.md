@@ -16,7 +16,7 @@ https://t.me/kBkpsP8Hk0M0ZmE1
 
 ### 8.14 更新
 
-增加hysteria2协议，设置hys
+增加hysteria2协议，设置TMP_ARGO值为hys
 
 ### 8.8 更新
 
