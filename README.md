@@ -81,13 +81,13 @@ vless 端口  localhost:8002 路径:vls
 
 # 其他玩具平台及docker容器,VPS等脚本(start.sh通用，请在本仓库下载最新的start.sh)：
 
-https://github.com/dsadsadsss/python-wanju.git
+https://github.com/dsadsadsss/python-wanju.git (无端口，适合reality和hy2)
 
-https://github.com/dsadsadsss/python-wanju2.git
+https://github.com/dsadsadsss/python-wanju2.git (带端口)
 
-https://github.com/dsadsadsss/nodejs-wanju.git
+https://github.com/dsadsadsss/nodejs-wanju.git  (无端口,适合reality和hy2)
 
-https://github.com/dsadsadsss/nodejs-wanju2.git  (支持订阅，适合临时隧道使用)
+https://github.com/dsadsadsss/nodejs-wanju2.git  (带端口，支持订阅，适合临时隧道使用)
 
 https://github.com/dsadsadsss/bedrock-wanju.git
 
