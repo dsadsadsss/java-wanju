@@ -18,7 +18,7 @@ https://t.me/kBkpsP8Hk0M0ZmE1
 
 增加hysteria2协议，设置TMP_ARGO值为hys即可体验
 
-nodejs与python需要使用1,即不带端口的版本
+nodejs与python需要使用1,即不带端口的版本,不能开游戏，保证端口不被占用。需要开启游戏只能使用vms和vls协议，走隧道
 
 ### 8.8 更新
 
