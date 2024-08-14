@@ -6,7 +6,7 @@ https://t.me/kBkpsP8Hk0M0ZmE1
 
 脚本特点：
 
-1.支持临时隧道，固定隧道，3种协议可选
+1.支持临时隧道，固定隧道，4种协议可选(vless,vmess,reality,hysteria2)
 
 2.支持玩具，docker容器，vps等几乎所有权限不限制的平台，支持nodejs,python,java等，具体看文档最后链接.
 
@@ -14,6 +14,9 @@ https://t.me/kBkpsP8Hk0M0ZmE1
 
 4.默认解锁gpt
 
+### 8.14 更新
+
+增加hysteria2协议，设置hys
 
 ### 8.8 更新
 
