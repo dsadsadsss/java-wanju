@@ -18,6 +18,8 @@ https://t.me/kBkpsP8Hk0M0ZmE1
 
 增加hysteria2协议，设置TMP_ARGO值为hys即可体验
 
+nodejs与python需要使用1,即不带端口的版本
+
 ### 8.8 更新
 
 1.优化内存，100m内即可稳定运行
