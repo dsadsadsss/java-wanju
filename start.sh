@@ -1,8 +1,8 @@
 #!/bin/bash
  
 # 隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
-# export TOK=${TOK:-'xxx'}  # 可以直接复制全部
-# export ARGO_DOMAIN=${ARGO_DOMAIN:-'xxx'} 
+# export TOK=${TOK:-'xxx'}  # token或json,可以直接复制全部
+# export ARGO_DOMAIN=${ARGO_DOMAIN:-'xxx'} #隧道域名
 
 # 哪吒相关设置
 export NEZHA_SERVER=${NEZHA_SERVER:-''}
