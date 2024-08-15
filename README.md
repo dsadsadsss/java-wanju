@@ -88,9 +88,9 @@ https://github.com/dsadsadsss/python-wanju.git (无端口，适合reality和hy2)
 
 https://github.com/dsadsadsss/python-wanju2.git (带端口)
 
-https://github.com/dsadsadsss/nodejs-wanju.git  (无端口,适合reality和hy2)
+https://github.com/dsadsadsss/nodejs-wanju.git  (无端口,适合reality和hy2,tuic,无订阅)
 
-https://github.com/dsadsadsss/nodejs-wanju2.git  (带端口，支持订阅，适合临时隧道使用)
+https://github.com/dsadsadsss/nodejs-wanju2.git  (带端口，支持订阅，适合临时隧道使用,协议选vms,不适合reality,hy2,tuic)
 
 https://github.com/dsadsadsss/bedrock-wanju.git
 
