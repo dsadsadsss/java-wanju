@@ -17,6 +17,11 @@ https://t.me/kBkpsP8Hk0M0ZmE1
 
 增加tuic协议，设置TMP_ARGO值为tuic即可体验
 
+这些协议在hiddify和nekbox通过，其他软件如果不能用可以手动输入或者转换
+
+节点在worlds文件里list.log种可以查看
+
+
 ### 8.14 更新
 
 增加hysteria2协议，设置TMP_ARGO值为hys或hy2即可体验
