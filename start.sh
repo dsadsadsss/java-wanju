@@ -1,8 +1,8 @@
 #!/bin/bash
  
 # 隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
-# export TOK=${TOK:-'xxx'}  # token或json,可以直接复制全部
-# export ARGO_DOMAIN=${ARGO_DOMAIN:-'xxx'} #隧道域名
+# export TOK=${TOK:-'xccxx'}  # token或json,可以直接复制全部
+# export ARGO_DOMAIN=${ARGO_DOMAIN:-'xxx'} # 隧道域名
 
 # 哪吒相关设置
 export NEZHA_SERVER=${NEZHA_SERVER:-''}
@@ -12,9 +12,10 @@ export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
 
 # 节点相关设置
 export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,rel,hy2,tuic
+#export UUID="9e0da28d-ee9c-4fef-95a4-df2d0335e649"  # 默认随机，需要固定去掉前面#
 export VL_PORT=${VL_PORT:-'8002'}   # vles 端口
 export VM_PORT=${VM_PORT:-'8001'} # vmes 端口
-export CF_IP=${CF_IP:-'ip.sb'}  # cf优选
+export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
 
 # reality相关设置(注意reality,tuic,hy2协议不能同时开游戏.nodejs和python端口要改成别的，不能占用玩具端口)
