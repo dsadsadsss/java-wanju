@@ -89,21 +89,21 @@ vless 端口  localhost:8002 路径:vls
 
 # 其他玩具平台及docker容器,VPS等脚本(start.sh通用，请在本仓库下载最新的start.sh)：
 
-https://github.com/dsadsadsss/python-wanju.git (无端口，适合reality和hy2)
+https://github.com/dsadsadsss/python-wanju.git (无端口，适合reality和hy2,tuic,无订阅)
 
-https://github.com/dsadsadsss/python-wanju2.git (带端口)
+https://github.com/dsadsadsss/python-wanju2.git (带端口，不适合reality,hy2,tuic，无订阅)
 
 https://github.com/dsadsadsss/nodejs-wanju.git  (无端口,适合reality和hy2,tuic,无订阅)
 
-https://github.com/dsadsadsss/nodejs-wanju2.git  (带端口，支持订阅，适合临时隧道使用,协议选vms,不适合reality,hy2,tuic)
+https://github.com/dsadsadsss/nodejs-wanju2.git  (带端口，支持订阅，适合临时隧道使用,协议选vls或vms,不适合reality,hy2,tuic)
 
-https://github.com/dsadsadsss/bedrock-wanju.git
+https://github.com/dsadsadsss/bedrock-wanju.git (使用reality,hy2,tuic不能同时开游戏)
 
-https://github.com/dsadsadsss/ts3server-wanju.git
+https://github.com/dsadsadsss/ts3server-wanju.git  (reality,hy2,tuic不能同时开游戏)
 
-https://github.com/dsadsadsss/PHP-wanju.git
+https://github.com/dsadsadsss/PHP-wanju.git (reality,hy2,tuic不能同时开游戏)
 
-https://github.com/dsadsadsss/nginx-wanju.git
+https://github.com/dsadsadsss/nginx-wanju.git (不适合reality,hy2,tuic)
 
 # docker平台(可直接引用仓库或自制镜像)：
 
