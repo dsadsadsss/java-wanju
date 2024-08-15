@@ -17,7 +17,7 @@ https://t.me/kBkpsP8Hk0M0ZmE1
 
 增加tuic协议，设置TMP_ARGO值为tuic即可体验
 
-这些协议在hiddify和nekbox通过，xrayn设置跳过tls验证，其他软件如果不能用可以手动输入或者转换
+这些协议在hiddify和nekbox通过，xrayn需设置跳过tls验证，其他软件如果不能用可以手动输入或者转换
 
 节点可在worlds文件里list.log查看
 
