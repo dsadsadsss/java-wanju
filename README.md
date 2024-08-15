@@ -8,7 +8,7 @@ https://t.me/kBkpsP8Hk0M0ZmE1
 
 1.支持临时隧道，固定隧道，5种协议可选(vless,vmess,reality,hysteria2,tuic)
 
-2.支持玩具，docker容器，vps等几乎所有权限不限制的平台，支持nodejs,python,java等，具体请看文档最后其他平台语言链接.
+2.支持玩具，docker容器，vps等几乎所有权限不限制的平台，支持nodejs,python,java等，文档最下面有其他平台链接
 
 3.建议使用固定隧道，设置UUID，如果使用临时隧道，重启节点会改变。临时隧道可以使用nodejs-wanju2仓库，这个支持订阅，使用时更新订阅即可，不怕节点改变。
 
