@@ -19,7 +19,7 @@ https://t.me/kBkpsP8Hk0M0ZmE1
 
 这些协议在hiddify和nekbox通过，其他软件如果不能用可以手动输入或者转换
 
-节点在worlds文件里list.log种可以查看
+节点可在worlds文件里list.log查看
 
 
 ### 8.14 更新
