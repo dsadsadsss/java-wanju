@@ -6,17 +6,20 @@ https://t.me/kBkpsP8Hk0M0ZmE1
 
 脚本特点：
 
-1.支持临时隧道，固定隧道，4种协议可选(vless,vmess,reality,hysteria2)
+1.支持临时隧道，固定隧道，5种协议可选(vless,vmess,reality,hysteria2,tuic)
 
 2.支持玩具，docker容器，vps等几乎所有权限不限制的平台，支持nodejs,python,java等，具体看文档最后链接.
 
 3.建议使用固定隧道，设置UUID，如果使用临时隧道，重启节点会改变。临时隧道可以使用nodejs-wanju2仓库，这个支持订阅，使用时更新订阅即可，不怕节点改变。
 
 4.默认解锁gpt
+### 8.15 更新
+
+增加tuic协议，设置TMP_ARGO值为tuic即可体验
 
 ### 8.14 更新
 
-增加hysteria2协议，设置TMP_ARGO值为hys即可体验
+增加hysteria2协议，设置TMP_ARGO值为hys活hy2即可体验
 
 nodejs与python需要使用1,即不带端口的版本,不能开游戏，保证端口不被占用。需要开启游戏只能使用vms和vls协议，走隧道
 
