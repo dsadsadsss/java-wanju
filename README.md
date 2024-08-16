@@ -13,6 +13,13 @@ https://t.me/kBkpsP8Hk0M0ZmE1
 3.建议使用固定隧道，设置UUID，如果使用临时隧道，重启节点会改变。临时隧道可以使用nodejs-wanju2仓库，这个支持订阅，使用时更新订阅即可，不怕节点改变。
 
 4.默认解锁gpt
+
+### 8.17 更新
+
+设置第二端口可以hy2和tuic共存，需要到netwok打开第二个端口
+
+设置export second_port='你打开的第二端口'，并且把前面#去掉即可
+
 ### 8.15 更新
 
 增加tuic协议，设置TMP_ARGO值为tuic即可体验
