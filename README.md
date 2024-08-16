@@ -79,7 +79,7 @@ https://github.com/dsadsadsss/nodejs-Nezha-server.git
 
 4.进价玩法:启动自带游戏
 
-只需把原来游戏带的jar文件改成senver.jar,在把原来的启动命令复制到参数JAR_SH中并把jar名称改为senver.jar即可
+只需把原来游戏带的jar文件改成senver.jar,再把原来的启动命令复制到参数JAR_SH中并把jar名称改为senver.jar即可
 
 
 # 固定隧道设置：
