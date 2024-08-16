@@ -20,6 +20,7 @@ export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
 
 # reality相关设置(注意reality,tuic,hy2协议不能同时开游戏.nodejs和python端口要改成别的，不能占用玩具端口)
 export SERVER_PORT=${SERVER_PORT:-'8000'}  # reality,tuic,hy2端口，玩具自动识别，其他手动修改，注意IP不能被墙
+# export second_port="8008" # 第二端口，设置则同时使用tuic和hy2
 export SNI=${SNI:-'www.apple.com'} # tls网站
 
 # 游戏相关设置(去掉#开启游戏，复制启动命令填在下面)
