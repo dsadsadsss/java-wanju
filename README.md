@@ -73,9 +73,13 @@ https://github.com/dsadsadsss/nodejs-Nezha-server.git
 
 1、第一步：上传仓库中的server.jar、start.sh文件到玩具中
 
-2、第二步：修改start.sh中的参数信息
+2、第二步：修改start.sh中的参数
 
-3、第三：查看启动文件是否为server.jar，不是改成这个名字，启动玩具即可
+3、第三：查看启动文件是否为server.jar，不是择改成server.jar，启动玩具即可
+
+4.进价玩法:启动自带游戏
+
+只需把原来游戏带的jar文件改成senver.jar,在把原来的启动命令复制到参数JAR_SH中并把jar名称改为senver.jar即可
 
 
 # 固定隧道设置：
