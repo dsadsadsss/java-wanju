@@ -71,13 +71,11 @@ https://github.com/dsadsadsss/nodejs-Nezha-server.git
 
 使用方法：
 
-1、第一步：把玩具原来的JAVA启动文件改名为senver.jar
+1、第一步：上传仓库中的server.jar、start.sh文件到玩具中
 
-2、第二步：上传仓库中的server.jar、c.yml文件到玩具中
+2、第二步：修改start.sh中的参数信息
 
-3、第三步：修改c.yml中的参数信息，复制启动命令到JAR_SH参数，并把启动命令中启动文件改为senver.jar
-
-4、第四步：启动玩具即可
+3、第三：查看启动文件是否为server.jar，不是改成这个名字，启动玩具即可
 
 
 # 固定隧道设置：
