@@ -18,6 +18,9 @@ export VM_PORT=${VM_PORT:-'8001'} # vmes 端口
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
 
+# 节点上传地址
+export SUB_URL=${SUB_URL:-''}  # 需搭建订阅服务器，查看https://github.com/dsadsadsss/docker-dingyue.git
+
 # reality相关设置(注意reality,tuic,hy2协议不能同时开游戏.nodejs和python端口要改成别的，不能占用玩具端口)
 export SERVER_PORT=${SERVER_PORT:-'8000'}  # reality,tuic,hy2端口，玩具自动识别，其他手动修改，注意IP不能被墙
 # export second_port="8008" # 第二端口，设置则同时使用tuic和hy2，需要手动打开netwok端口
