@@ -14,11 +14,6 @@ https://t.me/kBkpsP8Hk0M0ZmE1
 
 4.默认解锁gpt
 
-### 8.17 第二次更新
-
-增加节点上传地址，需要利用下面项目搭建订阅服务器
-
-https://github.com/dsadsadsss/docker-dingyue.git
 
 ### 8.17 更新
 
