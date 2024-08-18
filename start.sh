@@ -12,7 +12,7 @@ export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
 
 # 节点相关设置(节点可在worlds文件里list.log查看)
 export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,rel,hy2,tuic
-#export UUID="9e0da28d-ee9c-4fef-95a4-df2d0335e649"  # 默认随机值，需要固定值去掉前面#
+#export UUID="9e0da28d-ee9c-4fef-95a4-df2d0335e649"  # 默认随机，去掉#可设置固定UUID
 export VL_PORT=${VL_PORT:-'8002'}   # vles 端口
 export VM_PORT=${VM_PORT:-'8001'} # vmes 端口
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
@@ -20,7 +20,6 @@ export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
 
 # reality相关设置(注意reality,tuic,hy2协议不能同时开游戏.nodejs和python端口要改成别的，不能占用玩具端口)
 export SERVER_PORT=${SERVER_PORT:-'8000'}  # reality,tuic,hy2端口，玩具自动识别，其他手动修改，注意IP不能被墙
-# export second_port="8008" # 第二端口，设置则同时使用tuic和hy2，需要手动打开netwok端口
 export SNI=${SNI:-'www.apple.com'} # tls网站
 
 # 游戏相关设置(去掉#开启游戏，复制启动命令填在下面)
