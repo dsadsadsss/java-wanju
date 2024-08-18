@@ -4,6 +4,8 @@
 
 https://t.me/kBkpsP8Hk0M0ZmE1
 
+转载，引用，请注明出处
+
 脚本特点：
 
 1.支持临时隧道，固定隧道，5种协议可选(vless,vmess,reality,hysteria2,tuic)
