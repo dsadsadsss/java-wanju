@@ -10,25 +10,15 @@ https://t.me/kBkpsP8Hk0M0ZmE1
 
 2.支持玩具，docker容器，vps等几乎所有权限不限制的平台，支持nodejs,python,java等，文档最下面有其他平台链接
 
-3.建议使用固定隧道，设置UUID，如果使用临时隧道，重启节点会改变。临时隧道可以使用nodejs-wanju2仓库，这个支持订阅，使用时更新订阅即可，不怕节点改变。
+3.临时隧道可以使用nodejs-wanju2仓库，这个支持订阅，使用时更新订阅即可，不怕节点改变。
 
 4.默认解锁gpt
-
-
-### 8.17 更新
-
-设置第二端口可以hy2和tuic共存，需要到netwok打开第二个端口
-
-设置export second_port='你打开的第二端口'，并且把前面#去掉即可
 
 ### 8.15 更新
 
 增加tuic协议，设置TMP_ARGO值为tuic即可体验
 
 这些协议在hiddify和nekbox通过，xrayn需设置跳过tls验证，其他软件如果不能用可以手动输入或者转换
-
-节点可在worlds文件里list.log查看
-
 
 ### 8.14 更新
 
@@ -83,11 +73,11 @@ https://github.com/dsadsadsss/nodejs-Nezha-server.git
 
 2、第二步：修改start.sh中的参数
 
-3、第三：查看启动文件是否为server.jar，不是择改成server.jar，启动玩具即可
+3、第三：查看启动文件是否为server.jar，不是则改成server.jar
 
 4.进价玩法:启动自带游戏
 
-只需把原来游戏带的jar文件改成senver.jar,再把原来的启动命令复制到参数JAR_SH中并把jar名称改为senver.jar即可
+只需把原来游戏自带的jar文件改成senver.jar,再把原来的启动命令复制到参数JAR_SH中并把命令中jar名称改为刚才修改的senver.jar即可
 
 
 # 固定隧道设置：
