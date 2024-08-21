@@ -1,4 +1,4 @@
-互助交流群(https://t.me/kBkpsP8Hk0M0ZmE1)
+[互助交流群](https://t.me/kBkpsP8Hk0M0ZmE1)
 
 nodejs版本：https://github.com/dsadsadsss/nodejs-wanju.git
 
