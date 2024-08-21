@@ -1,13 +1,9 @@
 [点击加入交流群](https://t.me/kBkpsP8Hk0M0ZmE1)
 
-nodejs版本：https://github.com/dsadsadsss/nodejs-wanju.git
+[nodejs版本:](https://github.com/dsadsadsss/nodejs-wanju.git)
 
-https://github.com/dsadsadsss/nodejs-wanju2.git
 
-python版本:
-https://github.com/dsadsadsss/python-wanju.git
-
-https://github.com/dsadsadsss/python-wanju2.git
+[python版本:](https://github.com/dsadsadsss/python-wanju.git)
 
 # 免责声明:
 
