@@ -1,7 +1,7 @@
 #!/bin/bash
  
 # 隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
-# export TOK=${TOK:-'xccxx'}  # token或json,可以直接复制全部
+# export TOK=${TOK:-'xccxx'}  # token或json,可以直接复制全部，建议使用json，可以免设置端口
 # export ARGO_DOMAIN=${ARGO_DOMAIN:-'xxx'} # 隧道域名
 
 # 哪吒相关设置
