@@ -5,7 +5,7 @@
 
 [python版本](https://github.com/dsadsadsss/python-wanju.git)
 
-[Json获取教程](https://github.com/fscarmen2/Argo-X-Container-PaaS.git)
+[Json和token获取教程](https://github.com/fscarmen2/Argo-X-Container-PaaS.git)
 
 # 免责声明:
 
