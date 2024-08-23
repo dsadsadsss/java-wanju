@@ -5,7 +5,7 @@
 
 [python版本](https://github.com/dsadsadsss/python-wanju.git)
 
-[固定隧道Json和token获取教程](https://github.com/dsadsadsss/Argo-X-Container-PaaS.git)
+[固定隧道Json和Token获取教程](https://github.com/dsadsadsss/Argo-X-Container-PaaS.git)
 
 # 免责声明:
 
