@@ -11,18 +11,12 @@ export NEZHA_PORT=${NEZHA_PORT:-'443'}
 export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
 
 # 节点相关设置(节点可在worlds文件里list.log查看)
-export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,rel,hy2,tuic，3x,sock
+export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,rel,hy2,tuic，3x
 #export UUID="9e0da28d-ee9c-4fef-95a4-df2d0335e649"  # 默认随机，去掉#可设置固定UUID
 export VL_PORT=${VL_PORT:-'8002'} #vles 端口 (token隧道设置，json不用设置，会自动识别)
 export VM_PORT=${VM_PORT:-'8001'} #vmes 端口 (token隧道设置，json不用设置，会自动识别)
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
-
-# 开启reality的socks5中转(去掉前面#开启)
-#export S_IP=""  #socks5服务器ip
-#export S_PORT=""  #socks5端口
-export S_USER=""   
-export S_PASS=""
 
 # 游戏相关设置(去掉#开启游戏，复制启动命令填在下面)
 # export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar senver.jar'  # 启动命令，命令中文件名称改为senver.jar,原游戏jar文件改名为senver.jar
