@@ -18,7 +18,7 @@ export VM_PORT=${VM_PORT:-'8001'} #vmes 端口 (token隧道设置，json不用�
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
 
-# 开启reality的socks5中转
+# 开启reality的socks5中转(去掉前面#开启)
 #export S_IP=""  #socks5服务器ip
 #export S_PORT=""  #socks5端口
 export S_USER=""   
