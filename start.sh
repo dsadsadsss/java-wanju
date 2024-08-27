@@ -17,15 +17,18 @@ export VL_PORT=${VL_PORT:-'8002'} #vles 端口 (token隧道设置，json不用�
 export VM_PORT=${VM_PORT:-'8001'} #vmes 端口 (token隧道设置，json不用设置，会自动识别)
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
+# export second_port=""  #设置第二个端口，个别玩具可以开启第二个端口
 
-# reality协议下开启socks5转发(去掉#开启)
+# reality协议下开启socks5转发(去掉#开启),即reality协议连接中转机然后转发到socks5落地鸡
 # export S_IP="116.11.19" #要转发的socks5地址
 # export S_PORT="1077"  #要转发的socks5端口
-export S_USER="5a99dfcfa6"
-export S_PASS="5a991d-1dea6"
+# export S_USER="5a99dfcfa6"
+# export S_PASS="5a991d-1dea6"
 
-# 设置端口中转参数(去掉#开启)
-# export SIP_PORT=""  # 中转目标ip和端口，格式ip:端口，如1.1.1.1:443
+# 设置端口转发参数(去掉#开启)
+# export third_port=""  # 本机中转端口
+# export SIP_PORT=""  # 目标ip和端口，格式ip:端口，如1.1.1.1:443
+
 
 # 游戏相关设置(去掉#开启游戏，复制启动命令填在下面)
 # export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar senver.jar'  # 启动命令，命令中文件名称改为senver.jar,原游戏jar文件改名为senver.jar
