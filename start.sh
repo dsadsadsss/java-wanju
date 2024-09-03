@@ -38,8 +38,8 @@ export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
 #export web_file=""   #xray
 #export gost_file=""   #gost
 
-# 游戏相关设置(去掉#开启游戏，复制启动命令填在下面)
-# export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar senver.jar'  # 启动命令，命令中文件名称改为senver.jar,原游戏jar文件改名为senver.jar
+# 游戏相关设置(开启游戏)
+export JAR_SH='jar'
 
 # 设置文件保存位置
 #export FLIE_PATH="$PWD/worlds/"
