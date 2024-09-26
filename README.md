@@ -1,4 +1,3 @@
-[加入群](https://t.me/kBkpsP8Hk0M0ZmE1)
 
 [固定隧道Json和Token获取教程](https://github.com/dsadsadsss/Argo-X-Container-PaaS.git)
 
