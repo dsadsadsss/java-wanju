@@ -1,4 +1,4 @@
-[科学技术交流群:](https://t.me/kBkpsP8Hk0M0ZmE1)
+[加入交流群](https://t.me/kBkpsP8Hk0M0ZmE1)
 
 
 固定隧道Json和Token获取教程
