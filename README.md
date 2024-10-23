@@ -3,15 +3,25 @@
 
 nodejs: 
 
+https://github.com/dsadsadsss/nodejs-wanju.git
+
 https://github.com/dsadsadsss/nodejs-wanju2.git
+
+https://github.com/dsadsadsss/ws-nodejs-wanju.git
+
+https://github.com/dsadsadsss/ws-nodejs.git
 
 python:
 
 https://github.com/dsadsadsss/python-wanju2.git
 
+https://github.com/dsadsadsss/python-wanju.git
+
 docker:
 
 https://github.com/dsadsadsss/nodejs-wanju2.git
+
+https://github.com/dsadsadsss/ws-nodejs-wanju.git
 
 VPS:
 
