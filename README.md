@@ -5,7 +5,7 @@
 
 https://github.com/dsadsadsss/Argo-X-Container-PaaS.git
 
-nodejs: 
+nodejs: (第一个无端口无订阅，后三个有订阅)
 
 https://github.com/dsadsadsss/nodejs-wanju.git
 
