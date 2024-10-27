@@ -3,31 +3,6 @@
 
 https://github.com/dsadsadsss/Argo-X-Container-PaaS.git
 
-nodejs: (第一个无端口无订阅，后三个有订阅)
-
-https://github.com/dsadsadsss/nodejs-wanju.git
-
-https://github.com/dsadsadsss/nodejs-wanju2.git
-
-https://github.com/dsadsadsss/ws-nodejs-wanju.git
-
-https://github.com/dsadsadsss/ws-nodejs.git
-
-python:
-
-https://github.com/dsadsadsss/python-wanju2.git
-
-https://github.com/dsadsadsss/python-wanju.git
-
-docker:
-
-https://github.com/dsadsadsss/nodejs-wanju2.git
-
-https://github.com/dsadsadsss/ws-nodejs-wanju.git
-
-VPS:
-
-https://github.com/dsadsadsss/vps-argo.git
 
 # 免责声明:
 
