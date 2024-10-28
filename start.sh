@@ -12,7 +12,7 @@ export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
 
 # 节点相关设置(节点可在worlds文件里list.log查看)
 export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,rel,hy2,tuic，sock,3x
-# export UUID=${UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'} 默认随机，去掉#设置固定
+# export UUID=${UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'} # 默认随机，去掉#设置固定
 export VL_PORT=${VL_PORT:-'8002'} #vles 端口
 export VM_PORT=${VM_PORT:-'8001'} #vmes 端口
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
