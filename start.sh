@@ -1,8 +1,8 @@
 #!/bin/bash
  
 # 隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
-# export TOK=${TOK:-''}  # token或json,可以直接复制全部，建议使用json，可以免设置端口
-# export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
+export TOK=${TOK:-''}  # token或json,可以直接复制全部，建议使用json，可以免设置端口
+export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
 
 # 哪吒相关设置
 export NEZHA_SERVER=${NEZHA_SERVER:-''}
@@ -12,12 +12,12 @@ export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
 
 # 节点相关设置(节点可在worlds文件里list.log查看)
 export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,rel,hy2,tuic，sock,3x
-export UUID="9e0da28d-ee9c-4fef-95a4-df2d0335e649"
+export UUID=${UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'}
 export VL_PORT=${VL_PORT:-'8002'} #vles 端口
 export VM_PORT=${VM_PORT:-'8001'} #vmes 端口
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
-export second_port=""  # 第二端口
+export second_port=${second_port:-''} # 第二端口
 
 # 游戏相关设置(去掉#开启游戏，复制启动命令填在下面)
 # export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar senver.jar'  # 游戏启动命令，命令中jar游戏名称改为senver.jar
