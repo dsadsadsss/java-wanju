@@ -1,5 +1,4 @@
-
-固定隧道Json和Token获取教程
+Token和json获取教程:
 
 https://github.com/dsadsadsss/Argo-X-Container-PaaS.git
 
