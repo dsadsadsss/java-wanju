@@ -2,6 +2,20 @@ Token和json获取教程:
 
 https://github.com/dsadsadsss/Argo-X-Container-PaaS.git
 
+参数:vls,vms,spl,rel,hy2,tuic，sock,3x含义
+
+vls即vless+ws+tls
+
+vms即vmess+tls+ws
+
+spl即splithttp+vmess+tls
+
+rel即reality
+
+hy2即hysteria2
+
+3x即3协议，包括vmess,tuic,hy2
+
 
 # 免责声明:
 
