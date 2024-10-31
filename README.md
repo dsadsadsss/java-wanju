@@ -14,7 +14,7 @@ rel即reality
 
 hy2即hysteria2
 
-3x即3种协议，包括vmess,tuic,hy2，一般vps上使用
+3x即3种协议，包括vmess,tuic,hy2，建议vps上可用
 
 # 免责声明:
 
