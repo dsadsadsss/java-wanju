@@ -14,7 +14,7 @@ rel即reality
 
 hy2即hysteria2
 
-3x即3协议，包括vmess,tuic,hy2
+3x即3协议，包括vmess,tuic,hy2，如果vps使用则3协议都有，如果容器使用因为只有一个端口则只有tuic+vmess
 
 
 # 免责声明:
