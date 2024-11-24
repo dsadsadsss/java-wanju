@@ -6,9 +6,9 @@ https://github.com/dsadsadsss/Argo-X-Container-PaaS.git
 
 vls即vless+ws+tls
 
-vms即vmess+tls+ws
+vms即vmess+ws+tls
 
-spl即splithttp+vmess+tls
+spl即splithttp+vmess
 
 rel即reality
 
