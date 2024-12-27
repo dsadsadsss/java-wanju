@@ -8,7 +8,7 @@ vls即vless+ws+tls
 
 vms即vmess+ws+tls
 
-spl即splithttp+vmess
+xhttp即vmess+xhttp+tls
 
 rel即reality
 
