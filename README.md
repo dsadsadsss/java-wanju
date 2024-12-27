@@ -2,7 +2,7 @@
 
 https://github.com/dsadsadsss/Argo-X-Container-PaaS.git
 
-# 参数:vls,vms,spl,rel,hy2,tuic，sock,3x含义:
+## 参数:vls,vms,spl,xhttp,rel,hy2,tuic，sock,3x含义:
 
 vls即vless+ws+tls
 
@@ -15,6 +15,17 @@ rel即reality
 hy2即hysteria2
 
 3x即3种协议，包括vmess,tuic,hy2
+
+## 其他语言版本
+
+VPS版本: https://github.com/dsadsadsss/vps-argo.git
+
+nodejs和docker版本:
+https://github.com/dsadsadsss/nodejs-wanju2.git
+
+python和docker版本
+https://github.com/dsadsadsss/python-wanju2.git
+
 
 # 免责声明:
 
