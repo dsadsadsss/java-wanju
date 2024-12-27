@@ -1,4 +1,4 @@
-# Java平台脚本
+# Java平台和shell环境脚本
 # 隧道Token和json获取教程:
 
 https://github.com/dsadsadsss/Argo-X-Container-PaaS.git
