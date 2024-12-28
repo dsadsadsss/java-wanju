@@ -19,6 +19,9 @@ export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
 export second_port=${second_port:-''} # 第二端口，部分玩具支持设置第二端口
 
+#订阅上传地址
+# export SUB_URL='https://xxx.eu.org/upload-上传密钥' # 订阅上传地址
+
 # 游戏相关设置(去掉#开启游戏，复制启动命令填在下面)，注意开启游戏，不能用rel,tuic,hy2,因为端口会冲突
 # export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar xxx.jar'  # 游戏启动命令，命令中jar游戏名称改为xxx.jar
 
