@@ -19,16 +19,13 @@ export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
 export second_port=${second_port:-''} # 第二端口，部分玩具支持设置第二端口
 
-#订阅上传地址
+# 订阅上传地址
 # export SUB_URL='https://xxx.eu.org/upload-上传密钥' # 订阅上传地址
 
 # 通用启动游戏方式，适合任何游戏(去掉#开启游戏，复制启动命令填在下面)，注意开启游戏，不能用rel,tuic,hy2,因为端口会冲突
 # export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar xxx.jar'  # 游戏启动命令，命令中jar游戏名称改为xxx.jar
 
-# java游戏专用方式启动方式，创建bungeecord，paper，waterfall三种之一游戏，可以用下面启动命令
-# export JAR_SH='jar'  # 这样设置会自动下载游戏启动，且可以任意选择协议，不会端口冲突
-
-# 设置文件保存位置
+# 设置文件保存位置(一般默认即可)
 # export FLIE_PATH="$PWD/worlds/"
 
 # 启动程序
