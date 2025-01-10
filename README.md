@@ -27,7 +27,10 @@ https://github.com/dsadsadsss/nodejs-wanju.git
 nodejs和docker版本2:
 https://github.com/dsadsadsss/nodejs-wanju2.git
 
-python和docker版本
+python和docker版本1:
+https://github.com/dsadsadsss/python-wanju.git
+
+python和docker版本2:
 https://github.com/dsadsadsss/python-wanju2.git
 
 
