@@ -21,7 +21,10 @@ hy2即hysteria2
 
 VPS版本: https://github.com/dsadsadsss/vps-argo.git
 
-nodejs和docker版本:
+nodejs和docker版本1:
+https://github.com/dsadsadsss/nodejs-wanju.git
+
+nodejs和docker版本2:
 https://github.com/dsadsadsss/nodejs-wanju2.git
 
 python和docker版本
