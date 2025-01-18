@@ -19,7 +19,7 @@ export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
 export second_port=${second_port:-''} # 第二端口，部分玩具支持设置第二端口
 
-# //订阅上传地址，需要与订阅服务器搭配，没有可以不填
+# //订阅上传地址，需要与订阅服务器搭配，教程:https://github.com/dsadsadsss/sub-woker-2.git
 # export SUB_URL='https://xxx.eu.org/upload-上传密钥' # 自动上传节点到订阅服务器，需要与服务器搭配
 
 # //模拟启动游戏(去掉#开启)
