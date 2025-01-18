@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+# 所有参数没有的或不知道的，就不填即可，保持默认即可
 # //隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
 export TOK=${TOK:-''}  # 隧道token或json
 export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
