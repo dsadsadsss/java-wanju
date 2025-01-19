@@ -3,7 +3,7 @@
 
 https://github.com/dsadsadsss/Argo-X-Container-PaaS.git
 
-## 参数:vls,vms,xhttp,rel，sock,3x含义:
+## 参数:vls,vms,rel,3x含义:
 
 vls即vless+ws+tls
 
