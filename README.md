@@ -15,20 +15,29 @@ rel即reality
 
 ## 其他语言或平台版本
 
-#### VPS版本: https://github.com/dsadsadsss/vps-argo.git
+#### VPS版本: 
+
+https://github.com/dsadsadsss/vps-argo.git
 
 #### nodejs和docker版本1:
+
 https://github.com/dsadsadsss/nodejs-wanju.git
 
 #### nodejs和docker版本2:
+
 https://github.com/dsadsadsss/nodejs-wanju2.git
 
 #### python和docker版本1:
+
 https://github.com/dsadsadsss/python-wanju.git
 
 #### python和docker版本2:
+
 https://github.com/dsadsadsss/python-wanju2.git
 
+#### choreo,抱脸等权限受限docker:
+
+https://github.com/dsadsadsss/docker-wanju3-for-choreo.git
 
 # 免责声明:
 
