@@ -35,9 +35,6 @@ https://github.com/dsadsadsss/python-wanju.git
 
 https://github.com/dsadsadsss/python-wanju2.git
 
-#### choreo,抱脸等权限受限docker:
-
-https://github.com/dsadsadsss/docker-wanju3-for-choreo.git
 
 # 免责声明:
 
