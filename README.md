@@ -42,8 +42,9 @@ https://github.com/dsadsadsss/python-wanju2.git
 cd ./domains/用户名.serv00.net
 ```
 2.再一建命令，根据需要修改参数
+,参数完全按玩具脚本来即可
 ```
-curl -Lo start.sh https://dl.argo.nyc.mn/ser.sh && chmod +x start.sh && export NEZHA_SERVER=' ' NEZHA_KEY=' ' VL_PORT='8055' VM_PORT='8056' NEZHA_SERVER='x5.e' NEZHA_KEY='sPGIV' && ./start.sh
+curl -Lo start.sh https://dl.argo.nyc.mn/ser.sh && chmod +x start.sh && export NEZHA_SERVER='' NEZHA_KEY='' VL_PORT='' VM_PORT='' && ./start.sh
 ```
 # 免责声明:
 
