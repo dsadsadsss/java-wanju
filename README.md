@@ -35,6 +35,11 @@ https://github.com/dsadsadsss/python-wanju.git
 
 https://github.com/dsadsadsss/python-wanju2.git
 
+#### serv00 一键部署，先面板里面开2个端口，开启权限
+先
+cd ./domains/用户名.serv00.net
+再一建命令
+curl -L -o start.sh https://dl.argo.nyc.mn/ser.sh && chmod +x start.sh && export NEZHA_SERVER=' ' NEZHA_KEY=' ' VL_PORT='8055' VM_PORT='8056' NEZHA_SERVER='x5.e' NEZHA_KEY='sPGIV' && ./start.sh
 
 # 免责声明:
 
