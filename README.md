@@ -35,7 +35,7 @@ https://github.com/dsadsadsss/python-wanju.git
 
 https://github.com/dsadsadsss/python-wanju2.git
 
-#### serv00 一键部署，先面板里面开2个端口，开启权限
+#### serv00 一键部署，先面板里面开2个端口，开启权限，部署完成候，再找个进程保活教程即可
 
 1.先cd到用户目录
 ```
@@ -45,6 +45,10 @@ cd ./domains/用户名.serv00.net
 ,参数完全按玩具脚本来即可
 ```
 curl -Lo start.sh https://dl.argo.nyc.mn/ser.sh && chmod +x start.sh && export NEZHA_SERVER='' NEZHA_KEY='' VL_PORT='' VM_PORT='' && ./start.sh
+```
+3.重新部署
+```
+pkill -kill -u $(whoami) && curl -Lo start.sh https://dl.argo.nyc.mn/ser.sh && chmod +x start.sh && export NEZHA_SERVER='' NEZHA_KEY='' VL_PORT='' VM_PORT='' && ./start.sh
 ```
 # 免责声明:
 
