@@ -35,21 +35,29 @@ https://github.com/dsadsadsss/python-wanju.git
 
 https://github.com/dsadsadsss/python-wanju2.git
 
-#### serv00 一键部署，先面板里面开2个端口，开启权限，部署完成候，再找个进程保活教程即可
+#### serv00 一键部署
 
-1.先cd到用户目录
+## serv00 一键部署,利用worker保活即可
+
+ ssh登陆后执行
+
+1.复制一建命令，根据需要修改参数,配合订阅服务器自动订阅
 ```
-cd ./domains/用户名.serv00.net
+export NEZHA_SERVER='' NEZHA_KEY='' SUB_NAME='serv00' && bash <(curl -Ls https://dl.argo.nyc.mn/ser.sh)
 ```
-2.再一建命令，根据需要修改参数
-,参数完全按玩具脚本来即可
+可选参数:TOK 隧道key ，ARGO_DOMAIN 隧道域名 ，UUID ，SUB_NAME 节点名称，
+
+TMP_ARGO 节点类型，可选vls,vms，tuic,hy2,3x等,默认为3x，即vmess.tuic,hy2三协议
+
+2.重新部署
 ```
-curl -Lo start.sh https://dl.argo.nyc.mn/ser.sh && chmod +x start.sh && export NEZHA_SERVER='' NEZHA_KEY='' VL_PORT='' VM_PORT='' && ./start.sh
+pkill -kill -u $(whoami) && export NEZHA_SERVER='' NEZHA_KEY='' SUB_NAME='serv00' && bash <(curl -Ls https://dl.argo.nyc.mn/ser.sh)
 ```
-3.重新部署
-```
-pkill -kill -u $(whoami) && curl -Lo start.sh https://dl.argo.nyc.mn/ser.sh && chmod +x start.sh && export NEZHA_SERVER='' NEZHA_KEY='' VL_PORT='' VM_PORT='' && ./start.sh
-```
+
+推荐一个抱脸保活项目:
+
+https://github.com/dsadsadsss/serv00-baohuo.git
+
 # 免责声明:
 
 本仓库仅为自用备份，非开源项目，因为需要外链必须公开，但是任何人不得私自下载, 如果下载了，请于下载后 24 小时内删除, 不得用作任何商业用途, 文字、数据及图片均有所属版权。 
