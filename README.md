@@ -35,9 +35,7 @@ https://github.com/dsadsadsss/python-wanju.git
 
 https://github.com/dsadsadsss/python-wanju2.git
 
-#### serv00 一键部署
-
-## serv00 一键部署,利用worker保活即可
+## serv00 一键部署
 
  ssh登陆后执行
 
