@@ -1,9 +1,9 @@
-# Java平台和shell环境脚本
-# 隧道Token和json获取教程:
+### Java平台和shell环境脚本
+### 隧道Token和json获取教程:
 
 https://github.com/dsadsadsss/Argo-X-Container-PaaS.git
 
-## 参数:vls,vms,rel,3x含义:
+#### 参数:vls,vms,rel,3x含义:
 
 vls即vless+ws+tls
 
@@ -13,7 +13,7 @@ rel即reality
 
 3x即3种协议，包括vmess,tuic,hy2
 
-## 其他语言或平台版本
+#### 其他语言或平台版本
 
 #### VPS版本: 
 
