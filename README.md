@@ -1,4 +1,5 @@
-### Java平台和shell环境脚本
+### 几乎通杀目前的容器、vps、玩具的脚本
+
 ### 隧道Token和json获取教程:
 
 https://github.com/dsadsadsss/Argo-X-Container-PaaS.git
