@@ -18,6 +18,8 @@ rel即reality
 
 3x即3种协议，包括vmess,tuic,hy2
 
+xhttp即xhttp，需要使用固定隧道，网络打开grpc
+
 #### 其他语言或平台版本
 
 #### VPS版本: 
