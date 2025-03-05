@@ -34,10 +34,6 @@ https://github.com/dsadsadsss/nodejs-wanju.git
 
 https://github.com/dsadsadsss/nodejs-wanju2.git
 
-#### nodejs和docker版本3:
-
-https://github.com/dsadsadsss/ws-argo-nodejs.git
-
 #### python和docker版本1:
 
 https://github.com/dsadsadsss/python-wanju.git
