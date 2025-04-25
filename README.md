@@ -1,4 +1,4 @@
-### 几乎通杀目前的容器、vps、玩具的脚本
+### 容器、vps、玩具的通用脚本
 
 ### 隧道Token和json获取教程:
 
@@ -41,10 +41,6 @@ https://github.com/dsadsadsss/python-wanju.git
 #### python和docker版本2:
 
 https://github.com/dsadsadsss/python-wanju2.git
-
-####  serv00 一键部署三协议
-
-https://github.com/dsadsadsss/serv00-xray.git
 
 # 免责声明:
 
