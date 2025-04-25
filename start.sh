@@ -30,7 +30,7 @@ export second_port=${second_port:-''} # 第二端口，部分玩具支持设置�
 
 
 # //模拟启动游戏(去掉#开启)
-# export JAR_SH='moni'  //也可以复制启动命令填入
+# export JAR_SH='moni'  //也可以复制启动命令填入，如jar ser.jar,其中ser.jar为游戏文件
 
 
 # //启动程序
