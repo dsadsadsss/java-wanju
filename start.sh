@@ -24,6 +24,11 @@ export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
 export second_port=${second_port:-''} # 第二端口，部分玩具支持设置第二端口
 
+# reality相关设置(不能同时开游戏)
+export SERVER_PORT="${SERVER_PORT:-${PORT:-443}}" # 端口
+export SNI=${SNI:-'www.apple.com'} # tls网站
+# export HOST=${HOST:-'f1.rustix.me'} # 指定hy2,tuic,reality使用的ip或域名
+
 
 # //订阅上传地址，需要与订阅服务器搭配，教程:https://github.com/dsadsadsss/sub-woker-2.git
 # export SUB_URL='https://xxx.eu.org/upload-上传密钥' # 自动上传节点到订阅服务器，需要与服务器搭配
