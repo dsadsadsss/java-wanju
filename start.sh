@@ -4,8 +4,8 @@
 
 
 # //隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
-export TOK=${TOK:-''}  # 隧道token或json
-export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
+# export TOK=${TOK:-''}  # 隧道token或json
+# export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
 
 
 # //哪吒相关设置
@@ -17,17 +17,16 @@ export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
 
 # //节点相关设置(节点可在worlds文件里list.log查看)
 export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,spl,xhttp,rel,hy2,tuic，sock,3x
-export UUID=${UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'} # 去掉#可以使用随机UUID
+#export UUID=${UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'} # 去掉#设置UUID,否则使用随机UUID
 export VL_PORT=${VL_PORT:-'8002'} #vles 端口
 export VM_PORT=${VM_PORT:-'8001'} #vmes 端口
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
-export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
-export second_port=${second_port:-''} # 第二端口，部分玩具支持设置第二端口
+export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称
 
 # reality相关设置(不能同时开游戏)
-export SERVER_PORT="${SERVER_PORT:-${PORT:-443}}" # 端口
-export SNI=${SNI:-'www.apple.com'} # tls网站
-# export HOST=${HOST:-'f1.rustix.me'} # 指定hy2,tuic,reality使用的ip或域名
+# export SERVER_PORT="${SERVER_PORT:-${PORT:-443}}" # 指定hy2,tuic,reality使用的端口，否则自动获取
+# export SNI=${SNI:-'www.apple.com'} # 指定reality借用的tls网站，否则使用默认
+# export HOST=${HOST:-'1.1.1.1'} # 指定hy2,tuic,reality使用的ip或域名,否则自动获取
 
 
 # //订阅上传地址，需要与订阅服务器搭配，教程:https://github.com/dsadsadsss/sub-woker-2.git
