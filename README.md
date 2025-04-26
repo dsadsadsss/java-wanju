@@ -6,10 +6,6 @@
 
 https://github.com/dsadsadsss/Argo-X-Container-PaaS.git
 
-#### 博客
-
-https://blog.nezha.nyc.mn/
-
 #### 参数:vls,vms,rel,3x含义:
 
 vls即vless+ws+tls
