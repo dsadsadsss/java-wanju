@@ -28,6 +28,11 @@ export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称
 # export SNI=${SNI:-'www.apple.com'} # 指定reality借用的tls网站，否则使用默认
 # export HOST=${HOST:-'1.1.1.1'} # 指定hy2,tuic,reality使用的ip或域名,否则自动获取
 
+# 启动frp客户端
+#export FRPC_IP=''
+#export FRPC_PORT='7000'
+#export FRPC_UDPPORT='6002'
+#export FRPC_TOK=''
 
 # //订阅上传地址，需要与订阅服务器搭配，教程:https://github.com/dsadsadsss/sub-woker-2.git
 # export SUB_URL='https://xxx.eu.org/upload-上传密钥' # 自动上传节点到订阅服务器，需要与服务器搭配
