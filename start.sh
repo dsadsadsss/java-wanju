@@ -3,7 +3,7 @@
 # 所有参数没有的或不知道的，就不填即可，保持默认即可
 
 
-# //隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
+# //cf隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
 # export TOK=${TOK:-''}  # 隧道token或json
 # export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
 
@@ -28,7 +28,7 @@ export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称
 # export SNI=${SNI:-'www.apple.com'} # 指定reality借用的tls网站，否则使用默认
 # export HOST=${HOST:-'1.1.1.1'} # 指定hy2,tuic,reality使用的ip或域名,否则自动获取
 
-# 启动frp客户端
+# 启动frp隧道
 #export FRPC_IP='' # 服务器IP
 #export FRPC_PORT='7000' # 服务器端口
 #export FRPC_TCPPORT='6001'  # 服务端TCP端口
