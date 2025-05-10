@@ -29,10 +29,11 @@ export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称
 # export HOST=${HOST:-'1.1.1.1'} # 指定hy2,tuic,reality使用的ip或域名,否则自动获取
 
 # 启动frp客户端
-#export FRPC_IP=''
-#export FRPC_PORT='7000'
-#export FRPC_UDPPORT='6002'
-#export FRPC_TOK=''
+#export FRPC_IP='' # 服务器IP
+#export FRPC_PORT='7000' # 服务器端口
+#export FRPC_TCPPORT='6001'  # 服务端TCP端口
+#export FRPC_UDPPORT='6002' # 服务端UDP端口
+#export FRPC_TOK=''  # 服务端密钥
 
 # //订阅上传地址，需要与订阅服务器搭配，教程:https://github.com/dsadsadsss/sub-woker-2.git
 # export SUB_URL='https://xxx.eu.org/upload-上传密钥' # 自动上传节点到订阅服务器，需要与服务器搭配
