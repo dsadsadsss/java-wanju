@@ -28,7 +28,7 @@ export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称
 # export SNI=${SNI:-'www.apple.com'} # 指定reality借用的tls网站，否则使用默认
 # export HOST=${HOST:-'1.1.1.1'} # 指定hy2,tuic,reality使用的ip或域名,否则自动获取
 
-# 启动frp隧道
+# 启动frp隧道，老王一键frps搭建，bash <(curl -Ls https://raw.githubusercontent.com/eooce/scripts/master/frp.sh)
 #export FRPC_IP='' # 服务器IP
 #export FRPC_PORT='7000' # 服务器端口
 #export FRPC_TCPPORT='6001'  # 服务端TCP端口
