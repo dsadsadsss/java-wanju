@@ -30,11 +30,11 @@ export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称
 
 # 启动frp隧道，协议选择3x，自动生成hy2,tuic,vms三种协议，适合在容器部署时选用，vps没必要
 # 老王一键frps搭建，bash <(curl -Ls https://raw.githubusercontent.com/eooce/scripts/master/frp.sh)
-#export FRPC_IP='' # 服务器IP
-#export FRPC_PORT='7000' # 服务器端口
+#export FRPC_IP='' # frp服务器IP
+#export FRPC_PORT='7000' # frp服务器端口
 #export FRPC_TCPPORT='6001'  # 服务端TCP端口
-#export FRPC_UDPPORT='6002' # 服务端UDP端口
-#export FRPC_TOK=''  # 服务端密钥
+#export FRPC_UDPPORT='6002' # 服务端UDP端口即hy2端口，tuic自动加1，注意端口可用性
+#export FRPC_TOK=''  # frp服务端密钥
 
 # //订阅上传地址，需要与订阅服务器搭配，教程:https://github.com/dsadsadsss/sub-woker-2.git
 # export SUB_URL='https://xxx.eu.org/upload-上传密钥' # 自动上传节点到订阅服务器，需要与服务器搭配
