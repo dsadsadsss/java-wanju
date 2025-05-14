@@ -33,7 +33,7 @@ export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称
 #export FRPC_IP='' # frp服务器IP
 #export FRPC_PORT='7000' # frp服务器端口
 #export FRPC_TCPPORT='6001'  # 服务端TCP端口
-#export FRPC_UDPPORT='6002' # 服务端UDP端口即hy2端口，tuic自动加1，注意端口可用性
+#export FRPC_UDPPORT='6002' # 服务端UDP端口即hy2端口，tuic端口自动加1，要保证服务器这两个端口可用
 #export FRPC_TOK=''  # frp服务端密钥
 
 # //订阅上传地址，需要与订阅服务器搭配，教程:https://github.com/dsadsadsss/sub-woker-2.git
