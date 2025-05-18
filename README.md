@@ -18,6 +18,8 @@ rel即reality
 
 xhttp即xhttp，需要使用固定隧道，网络打开grpc
 
+sock即socks5,会在list.log里同时生成TG格式和节点格式
+
 #### 其他语言或平台版本
 
 #### VPS版本: 
