@@ -14,7 +14,7 @@ vms即vmess+ws+tls
 
 rel即reality
 
-hy2活hys,鸡hysteria2
+hy2或hys,鸡hysteria2
 
 tuic,字面意思
 
