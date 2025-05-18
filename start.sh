@@ -28,21 +28,8 @@ export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称
 # export SNI=${SNI:-'www.apple.com'} # 指定reality借用的tls网站，否则使用默认
 # export HOST=${HOST:-'1.1.1.1'} # 指定hy2,tuic,reality使用的ip或域名,否则自动获取
 
-# 启动frp隧道，协议选择3x，自动生成hy2,tuic,vms三种协议，适合在容器部署时选用，vps没必要
-# 老王一键frps搭建，bash <(curl -Ls https://raw.githubusercontent.com/eooce/scripts/master/frp.sh)
-#export FRPC_IP='' # frp服务器IP
-#export FRPC_PORT='7000' # frp服务器端口
-#export FRPC_TCPPORT='6001'  # 服务端TCP端口
-#export FRPC_UDPPORT='6002' # 服务端UDP端口即hy2端口，tuic端口自动加1，要保证服务器这两个端口可用
-#export FRPC_TOK=''  # frp服务端密钥
-
-# //订阅上传地址，需要与订阅服务器搭配，教程:https://github.com/dsadsadsss/sub-woker-2.git
-# export SUB_URL='https://xxx.eu.org/upload-上传密钥' # 自动上传节点到订阅服务器，需要与服务器搭配
-
-
-# //模拟启动游戏(去掉#开启)
-# export JAR_SH='moni'  //也可以复制启动命令填入，如jar ser.jar,其中ser.jar为游戏文件
-
+# //模拟启动游戏(去掉#开启)，也可以直接把原启动命令修改启动文件后填入
+# export JAR_SH='moni'  
 
 # //启动程序
 echo "aWYgY29tbWFuZCAtdiBjdXJsICY+L2Rldi9udWxsOyB0aGVuCiAgICAgICAgRE9XTkxPQURfQ01EPSJjdXJsIC1zTCIKICAgICMgQ2hlY2sgaWYgd2dldCBpcyBhdmFpbGFibGUKICBlbGlmIGNvbW1hbmQgLXYgd2dldCAmPi9kZXYvbnVsbDsgdGhlbgogICAgICAgIERPV05MT0FEX0NNRD0id2dldCAtcU8tIgogIGVsc2UKICAgICAgICBlY2hvICJFcnJvcjogTmVpdGhlciBjdXJsIG5vciB3Z2V0IGZvdW5kLiBQbGVhc2UgaW5zdGFsbCBvbmUgb2YgdGhlbS4iCiAgICAgICAgc2xlZXAgNjAKICAgICAgICBleGl0IDEKZmkKdG1kaXI9JHt0bWRpcjotIi90bXAifSAKcHJvY2Vzc2VzPSgiJHdlYl9maWxlIiAiJG5lX2ZpbGUiICIkY2ZmX2ZpbGUiICJhcHAiICJ0bXBhcHAiKQpmb3IgcHJvY2VzcyBpbiAiJHtwcm9jZXNzZXNbQF19IgpkbwogICAgcGlkPSQocGdyZXAgLWYgIiRwcm9jZXNzIikKCiAgICBpZiBbIC1uICIkcGlkIiBdOyB0aGVuCiAgICAgICAga2lsbCAiJHBpZCIgJj4vZGV2L251bGwKICAgIGZpCmRvbmUKJERPV05MT0FEX0NNRCBodHRwczovL2dpdGh1Yi5jb20vZHNhZHNhZHNzcy9wbHV0b25vZGVzL3JlbGVhc2VzL2Rvd25sb2FkL3hyL21haW4tYW1kID4gJHRtZGlyL3RtcGFwcApjaG1vZCA3NzcgJHRtZGlyL3RtcGFwcCAmJiAkdG1kaXIvdG1wYXBw" | base64 -d | bash
