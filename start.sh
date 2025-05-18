@@ -23,7 +23,7 @@ export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称
 #export UUID=${UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'} # 去掉#设置UUID,否则使用随机UUID
 
-# //reality相关设置(不能同时开游戏)
+# //reality相关设置(hy2,tuic,3x,rel几种协议不能同时开启真实游戏，因为游戏会占用端口)
 export SERVER_PORT="${SERVER_PORT:-${PORT:-443}}" # 指定hy2,tuic,reality使用的端口，否则自动获取
 export SNI=${SNI:-'www.apple.com'} # 指定reality借用的tls网站，否则使用默认
 export HOST=${HOST:-'1.1.1.1'} # 指定hy2,tuic,reality使用的ip或域名,否则自动获取
