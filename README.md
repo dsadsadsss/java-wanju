@@ -14,6 +14,10 @@ vms即vmess+ws+tls
 
 rel即reality
 
+hy2活hys,鸡hysteria2
+
+tuic,字面意思
+
 3x即3种协议，包括vmess,tuic,hy2
 
 xhttp即xhttp，需要使用固定隧道，网络打开grpc
