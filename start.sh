@@ -9,7 +9,7 @@
 # Telegram配置 - 格式: "CHAT_ID BOT_TOKEN"
 export TG=${TG:-''}  #配置后节点自动上传TG
 
-# 哪吒相关设置
+# 哪吒相关设置，仅支持v0
 export NEZHA_SERVER=${NEZHA_SERVER:-''}
 export NEZHA_KEY=${NEZHA_KEY:-''}
 export NEZHA_PORT=${NEZHA_PORT:-'443'}
