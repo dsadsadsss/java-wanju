@@ -7,7 +7,7 @@
 # export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
 
 # Telegram配置 - 格式: "CHAT_ID BOT_TOKEN"
-export TG=${TG:-''}  #配置候节点自动上传TG
+export TG=${TG:-''}  #配置后节点自动上传TG
 
 # 哪吒相关设置
 export NEZHA_SERVER=${NEZHA_SERVER:-''}
