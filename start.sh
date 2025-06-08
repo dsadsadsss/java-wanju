@@ -31,6 +31,7 @@ export SNI=${SNI:-'www.apple.com'} # 指定reality借用的tls网站，否则使
 
 # 模拟启动游戏(去掉#开启)，也可以直接把原启动命令修改启动文件后填入，这样是启动真实游戏
 # 比如原来的命令是jar -c server.jar,把原来的文件名改成server.jar2,再把命令改成jar -c server2.jar填入
+# 玩具玩法几乎都是替换文件，修改开机命令，万变不离其宗，本脚本几乎适用所有玩具，只是玩法不同
 # export JAR_SH='moni' 
 
 # //启动程序
