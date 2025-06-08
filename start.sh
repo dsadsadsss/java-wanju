@@ -27,7 +27,7 @@ export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称
 # reality相关设置(hy2,tuic,3x,rel几种协议不能同时开启真实游戏，因为游戏会占用端口)
 export SERVER_PORT="${SERVER_PORT:-${PORT:-443}}" # 指定hy2,tuic,reality使用的端口，否则自动获取
 export SNI=${SNI:-'www.apple.com'} # 指定reality借用的tls网站，否则使用默认
-export HOST=${HOST:-'1.1.1.1'} # 指定hy2,tuic,reality使用的ip或域名,否则自动获取
+# export HOST=${HOST:-'1.1.1.1'} # 指定hy2,tuic,reality使用的ip或域名,否则自动获取
 
 # 模拟启动游戏(去掉#开启)，也可以直接把原启动命令修改启动文件后填入，这样是启动真实游戏
 # 比如原来的命令是jar -c server.jar,把原来的文件名改成server.jar2,再把命令改成jar -c server2.jar填入
