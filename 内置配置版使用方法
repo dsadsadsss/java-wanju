@@ -10,3 +10,7 @@
 NEZ_AMD_URL(带https开头的完整下载链接)
 
 NEZ_ARM_URL
+
+如
+
+export NEZ_AMD_URL="https://GitHub/xx.nezha"
