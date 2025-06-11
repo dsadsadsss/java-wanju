@@ -6,7 +6,7 @@
 # export TOK=${TOK:-''}  # 隧道token或json
 # export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
 
-# Telegram配置 - 格式: "CHAT_ID BOT_TOKEN"
+# 节点上传TG，Telegram配置 - 格式: "CHAT_ID BOT_TOKEN"，中间是空格
 export TG=${TG:-''}  #配置后节点自动上传TG
 
 # 哪吒相关设置，仅支持v0
