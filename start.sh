@@ -11,7 +11,7 @@ export TG=${TG:-''}  #配置后节点自动上传TG
 
 # 哪吒相关设置
 export NEZHA_SERV=${NEZHA_SERVER:-''}  # v0设置域名即可，v1设置域名:端口
-export NEZHA_KEY=${NEZHA_KEY:-''}
+export NEZHA_KEY=${NEZHA_KEY:-''}   # v1进后台复制安装命中的NZ_CLIENT_SECRET值
 export NEZHA_PORT=${NEZHA_PORT:-'443'}  #v1不填这个端口
 export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
 
