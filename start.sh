@@ -9,10 +9,10 @@
 # 节点上传TG，Telegram配置 - 格式: "CHAT_ID BOT_TOKEN"，中间是空格
 export TG=${TG:-''}  #配置后节点自动上传TG
 
-# 哪吒相关设置，仅支持v0
-export NEZHA_SERVER=${NEZHA_SERVER:-''}
+# 哪吒相关设置
+export NEZHA_SERV=${NEZHA_SERVER:-''}  # v0设置域名即可，v1设置域名:端口
 export NEZHA_KEY=${NEZHA_KEY:-''}
-export NEZHA_PORT=${NEZHA_PORT:-'443'}
+export NEZHA_PORT=${NEZHA_PORT:-'443'}  #v1不填这个端口
 export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
 
 
