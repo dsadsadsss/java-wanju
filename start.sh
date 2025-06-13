@@ -9,7 +9,7 @@
 # 节点上传TG，Telegram配置 - 格式: "CHAT_ID BOT_TOKEN"，中间是空格
 export TG=${TG:-''}  #配置后节点自动上传TG
 
-# 哪吒相关设置
+# 哪吒相关设置，v1面板:https://github.com/dsadsadsss/Docker-for-Nezha-Argo-server-v1.x.git
 export NEZHA_SERV=${NEZHA_SERVER:-''}  # v0设置域名即可，v1设置域名:端口
 export NEZHA_KEY=${NEZHA_KEY:-''}   # v1进后台复制安装命中的NZ_CLIENT_SECRET值
 export NEZHA_PORT=${NEZHA_PORT:-'443'}  #v1不填这个端口
