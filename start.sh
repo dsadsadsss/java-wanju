@@ -3,6 +3,7 @@
 # 喜欢就点亮星星，不知道的参数保持默认
 
 # cf隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
+# 当只有ARGO_DOMAIN没有TOK时，协议选择vms或vls，支持ws直连
 # export TOK=${TOK:-''}  # 隧道token或json
 # export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
 
