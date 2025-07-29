@@ -15,7 +15,7 @@ export NEZHA_SERV=${NEZHA_SERVER:-''}  # v0设置域名即可，v1设置域名:�
 export NEZHA_KEY=${NEZHA_KEY:-''}   # v1进后台复制安装命中的NZ_CLIENT_SECRET值
 export NEZHA_PORT=${NEZHA_PORT:-'443'}  #v1不填这个端口
 export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
-# export AGENT_UUID=${AGENT_UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'}  # 指定哪吒v1的uuid，默认随机
+# export AGENT_UUID=${AGENT_UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'}  # 设置哪吒v1固定的uuid，默认随机
 
 # 节点相关设置(节点可在worlds文件里list.log查看)
 export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,spl,xhttp,rel,hy2,tuic，sock,3x
@@ -23,7 +23,7 @@ export VL_PORT=${VL_PORT:-'8002'} #vles 端口
 export VM_PORT=${VM_PORT:-'8001'} #vmes 端口
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称
-#export UUID=${UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'} # 固定UUID,否则使用随机UUID
+#export UUID=${UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'} # 设置节点固定的UUID,否则使用随机UUID
 
 # reality相关设置(hy2,tuic,3x,rel几种协议不能同时开启真实游戏，因为游戏会占用端口)
 export SERVER_PORT="${SERVER_PORT:-${PORT:-443}}" # 指定hy2,tuic,reality使用的端口，否则自动获取
