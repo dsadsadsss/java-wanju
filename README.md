@@ -50,7 +50,9 @@ https://github.com/dsadsadsss/python-wanju2.git
 
 https://github.com/dsadsadsss/Docker-for-Nezha-Argo-server-v1.x.git
 
-#### 脚本配套订阅服务器，直接搭建在cf的workers上面
+#### 脚本配套订阅服务器，直接搭建在cf的workers
+
+https://github.com/dsadsadsss/workers-sub-for-wanju.git
 
 
 
