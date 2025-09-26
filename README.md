@@ -46,6 +46,14 @@ https://github.com/dsadsadsss/python-wanju.git
 
 https://github.com/dsadsadsss/python-wanju2.git
 
+#### 脚本配套哪吒面板v1,可以实现自动甚至哪吒面板中名称为脚本中的SUB_NAME值
+
+https://github.com/dsadsadsss/Docker-for-Nezha-Argo-server-v1.x.git
+
+#### 脚本配套订阅服务器，直接搭建在cf的workers上面
+
+
+
 # 免责声明:
 
 本仓库仅为自用备份，非开源项目，因为需要外链必须公开，但是任何人不得私自下载, 如果下载了，请于下载后 24 小时内删除, 不得用作任何商业用途, 文字、数据及图片均有所属版权。 
