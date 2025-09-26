@@ -1,3 +1,5 @@
 1.查看worlds/list.log
 2.设置TG上传
 3.搭建订阅服务器，脚本填上上传地址，自动生成节点订阅
+订阅服务器可以直接在workers部署，参考下面教程
+https://github.com/dsadsadsss/workers-sub-for-wanju.git
