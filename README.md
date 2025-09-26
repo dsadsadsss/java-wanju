@@ -14,7 +14,7 @@ vms即vmess+ws+tls
 
 rel即reality
 
-hy2或hys,鸡hysteria2
+hy2或hys,即hysteria2
 
 tuic,字面意思
 
@@ -23,6 +23,8 @@ tuic,字面意思
 xhttp即xhttp，需要使用固定隧道，网络打开grpc
 
 sock即socks5,会在list.log里同时生成TG格式和节点格式
+
+注意:DOCKER部署时只能设置vms或vls或xhttp
 
 #### 其他语言或平台版本
 
