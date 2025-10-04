@@ -1,3 +1,6 @@
-1.面板使用https://github.com/dsadsadsss/Docker-for-Nezha-Argo-server-v1.x.git
-2.玩具脚本设置SUB_NAME值，可以使用中文
+1.面板搭建
+
+https://github.com/dsadsadsss/Docker-for-Nezha-Argo-server-v1.x.git
+
+2.玩具脚本设置SUB_NAME值
 哪吒面板会自动生成设置的中文名称
