@@ -15,8 +15,8 @@ export SUB_URL=${SUB_URL:-''}
 
 # 哪吒相关设置，v1面板:https://github.com/dsadsadsss/Docker-for-Nezha-Argo-server-v1.x.git
 export NEZHA_SERVER=${NEZHA_SERVER:-''}  # v0设置域名即可，v1设置域名:端口
-export NEZHA_KEY=${NEZHA_KEY:-''}   # v1进后台复制安装命中的NZ_CLIENT_SECRET值
-export NEZHA_PORT=${NEZHA_PORT:-'443'}  #v1不填这个端口
+export NEZHA_KEY=${NEZHA_KEY:-''}   # v1进后台复制安装命令中的NZ_CLIENT_SECRET值
+export NEZHA_PORT=${NEZHA_PORT:-'443'}  # v1不填这个端口，V1的端口在NEZHA_SERVER中设置
 export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
 # export AGENT_UUID=${AGENT_UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'}  # 设置哪吒v1固定的uuid，默认随机
 
@@ -26,6 +26,7 @@ export VL_PORT=${VL_PORT:-'8002'} #vles 端口
 export VM_PORT=${VM_PORT:-'8001'} #vmes 端口
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称，配合哪吒面板v1可以自动设置面板名称
+export second_port=${second_port:-''} # 可选，第二端口，部分玩具支持设置第二端口
 #export UUID=${UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'} # 设置节点固定的UUID,否则使用随机UUID
 
 # reality相关设置(hy2,tuic,3x,rel几种协议不能同时开启真实游戏，因为游戏会占用端口)
@@ -36,7 +37,6 @@ export SNI=${SNI:-'www.apple.com'} # 指定reality借用的tls网站，否则使
 
 # 模拟启动游戏(去掉#开启)，也可以直接把原启动命令修改启动文件后填入，这样是启动真实游戏
 # 比如原来的命令是jar -c server.jar,把原来的文件名改成server.jar2,再把命令改成jar -c server2.jar填入
-# 玩具玩法几乎都是替换文件，修改开机命令，万变不离其宗，本脚本几乎适用所有玩具，只是玩法不同
 # export JAR_SH='moni' 
 
 # //启动程序
