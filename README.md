@@ -18,7 +18,7 @@ hy2或hys,即hysteria2
 
 tuic,字面意思
 
-3x即3种协议，包括vmess,tuic,hy2
+3x即3种协议，包括vmess,hy2,tuic
 
 xhttp即xhttp，需要使用固定隧道，网络打开grpc
 
