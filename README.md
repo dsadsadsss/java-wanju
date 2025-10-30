@@ -2,6 +2,8 @@
 
 ### 支持目前所有协议，协议可选
 
+### 建议使用我的脚本，最好配套部署节点订阅服务器，和专用哪吒面板，三件套齐全才能完美体验，所有功能
+
 ### 隧道Token和json获取教程:
 
 https://github.com/dsadsadsss/Argo-X-Container-PaaS.git
