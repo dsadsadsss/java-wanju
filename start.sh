@@ -6,6 +6,9 @@
 # 当只有ARGO_DOMAIN没有TOK时，协议选择vms或vls，支持ws直连
 # export TOK=${TOK:-''}  # 隧道token或json
 # export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
+# export TUNNEL_PROXY="1"   # 开启socks5代理，应对封锁隧道的容器，1是使用免费的socks5,可能不稳定和速度慢
+# 1是免费socks5,也可使用自己的，格式socks5://用户名:密码@ip:端口，可以多个，每个用空格隔开
+
 
 # 节点上传TG，Telegram配置 - 格式: "CHAT_ID BOT_TOKEN"，中间是空格
 export TG=${TG:-''}  #配置后节点自动上传TG
