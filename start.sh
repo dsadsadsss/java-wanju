@@ -19,7 +19,7 @@ export NEZHA_SERVER=${NEZHA_SERVER:-''}  # v0设置域名即可，v1设置域名
 export NEZHA_KEY=${NEZHA_KEY:-''}   # v1进后台复制安装命令中的NZ_CLIENT_SECRET值
 export NEZHA_PORT=${NEZHA_PORT:-'443'}  # v1不填这个端口，V1的端口在NEZHA_SERVER中设置
 export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
-# export AGENT_UUID=${AGENT_UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'}  # 设置哪吒v1固定的uuid，默认随机
+# export AGENT_UUID=${AGENT_UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'}  # 哪吒v1固定的ID，默认随机
 
 # 节点相关设置(节点可在worlds文件里list.log查看)
 export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,spl,xhttp,rel,hy2,tuic，sock,3x
