@@ -6,7 +6,6 @@
 # 当只有ARGO_DOMAIN没有TOK时，协议选择vms或vls，支持ws直连
 # export TOK=${TOK:-''}  # 隧道token或json
 # export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
-# export TUNNEL_PROXY="1"   # 代理模式，隧道封锁时开启
 
 # 节点上传TG，Telegram配置 - 格式: "CHAT_ID BOT_TOKEN"，中间是空格
 export TG=${TG:-''}  #配置后节点自动上传TG
