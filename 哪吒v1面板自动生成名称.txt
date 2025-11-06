@@ -1,7 +1,0 @@
-1.面板搭建
-
-https://github.com/dsadsadsss/Docker-for-Nezha-Argo-server-v1.x.git
-
-2.玩具脚本设置SUB_NAME值
-
-哪吒面板会根据SUB_NAME值设置节点名字
