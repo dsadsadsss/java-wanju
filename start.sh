@@ -10,15 +10,18 @@
 # =======节点上传TG，Telegram配置 - 格式: "CHAT_ID BOT_TOKEN"，中间是空格
 export TG=${TG:-''} 
 
-# =======节点上传订阅服务器，服务器搭建https://github.com/dsadsadsss/workers-sub-for-wanju.git
+# =======节点上传订阅服务器
 export SUB_URL=${SUB_URL:-''} 
+# 订阅服务器搭建  https://github.com/dsadsadsss/workers-sub-for-wanju.git
 
-# =======哪吒相关设置，支持V0和V1，v1面板搭建教程:https://github.com/dsadsadsss/Docker-for-Nezha-Argo-server-v1.x.git
-export NEZHA_SERVER=${NEZHA_SERVER:-''}  # v0设置域名即可，v1设置域名:端口
+# =======哪吒相关设置，支持V0和V1
+export NEZHA_SERVER=${NEZHA_SERVER:-''}  # v0设置域名，v1设置域名:端口
 export NEZHA_KEY=${NEZHA_KEY:-''}   # v1进后台复制安装命令中的NZ_CLIENT_SECRET值
-export NEZHA_PORT=${NEZHA_PORT:-'443'}  # v1不填这个端口，V1的端口在NEZHA_SERVER中设置
+export NEZHA_PORT=${NEZHA_PORT:-'443'}  # v0填，v1不填
 export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
 # export AGENT_UUID=${AGENT_UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'}  # 哪吒v1固定的ID，默认随机
+# v1面板搭建教程  https://github.com/dsadsadsss/Docker-for-Nezha-Argo-server-v1.x.git
+
 
 # ======节点相关设置(节点可在worlds文件里list.log查看)
 export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,spl,xhttp,rel,hy2,tuic，sock,3x
