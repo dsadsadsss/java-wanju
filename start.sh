@@ -3,8 +3,8 @@
 # 喜欢就点亮星星，不知道的参数保持默认
 
 # =======cf隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
-# export TOK=${TOK:-''}  # 隧道token或json
-# export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
+export TOK=${TOK:-''}  # 隧道token或json
+export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
 # export TUNNEL_PROXY=${TUNNEL_PROXY:-''} # socks5代理
 
 # =======节点上传TG，Telegram配置 - 格式: "CHAT_ID BOT_TOKEN"，中间是空格
