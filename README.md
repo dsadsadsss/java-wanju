@@ -56,6 +56,12 @@ https://github.com/dsadsadsss/Docker-for-Nezha-Argo-server-v1.x.git
 
 #### 脚本配套订阅服务器，直接搭建在cf的workers
 
+数据库版本：
+
+https://github.com/dsadsadsss/sub-worker-Supabase.git
+
+KV版本：
+
 https://github.com/dsadsadsss/workers-sub-for-wanju.git
 
 
